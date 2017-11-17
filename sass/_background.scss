@@ -1,3 +1,19 @@
 body {
 	@include gradient();
+	padding: 20px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	.flexBox{
+		width: 50%;
+	}
+	.flexBox2{
+		width: 30%;
+		margin-left: -20%;
+	}
+}
+.scrollBackground{
+	background-color: $textWhite;
+	position: inline;
 }
