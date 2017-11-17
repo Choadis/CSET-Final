@@ -41,6 +41,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  letter-spacing: .2; }
+
 .mont8 {
   font-family: "Montserrat", sans-serif;
   font-size: 8px; }
@@ -72,10 +75,12 @@ table {
 .robo13 {
   font-family: "Roboto Slab", serif;
   font-size: 13px; }
+
 body {
   background-color: #2fcfba;
   background: linear-gradient(45deg, #2fcfba 50%, #47a1ba);
   background: -webkit-linear-gradient(45deg, #2fcfba 50%, #47a1ba);
   background: -moz-linear-gradient(45deg, #2fcfba 50%, #47a1ba);
   background: -o-linear-gradient(45deg, #2fcfba 50%, #47a1ba); }
+
 /*# sourceMappingURL=style.css.map */
