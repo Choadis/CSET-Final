@@ -131,7 +131,17 @@ body {
     color: #f7f7f7;
     margin-bottom: 10px;
     margin-left: 20px; }
-
+  .scrollBackground {
+  overflow-y: scroll; }
+  .scrollBackground .mont12 {
+    color: #48a2ba;
+    margin-bottom: 15px; }
+  .scrollBackground .mont15 {
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .scrollBackground .robo13 {
+    line-height: 21px;
+    padding-bottom: 20px; }
 header {
   background-color: #f7f7f7;
   height: 40%;
@@ -153,7 +163,7 @@ header {
     color: #1b3c50; }
   header h1 {
     color: #59aac0; }
-  header h2 {
+  header .mont15 {
     padding-top: 5px; }
   header h3 {
     color: #2e0a3a;
@@ -162,7 +172,6 @@ header {
     width: 30%;
     display: inline-block;
     margin: 20px 0; }
-
 .scrollBackground {
   overflow-y: scroll; }
   .scrollBackground .mont12 {
@@ -174,5 +183,4 @@ header {
   .scrollBackground .robo13 {
     line-height: 21px;
     padding-bottom: 20px; }
-
 /*# sourceMappingURL=style.css.map */

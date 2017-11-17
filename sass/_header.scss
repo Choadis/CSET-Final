@@ -1,9 +1,8 @@
 header {
   //temp color
   background-color: $textWhite;
-  height: 40%;
-	width: auto;
-  padding: 14px 3% 0;
+  width: 100%;
+  padding: 14px 5% 0;
   .date {
     display: block;
     width: 100%;
@@ -24,7 +23,7 @@ header {
   h1 {
     color: $lBlue;
   }
-  h2 {
+  .mont15 {
     padding-top: 5px;
   }
   h3 {
