@@ -102,14 +102,15 @@ body {
 .scrollBackground {
   background-color: #f7f7f7;
   padding: 20px;
-  height: 30%; }
+  height: 365px; }
 
 .mainContainer {
   display: block;
   height: 100%; }
 
 .headerContainer {
-  height: 40%; }
+  height: 40%;
+  width: auto; }
 
 .sidebarContainer {
   width: 400px;
@@ -135,20 +136,9 @@ body {
     margin-bottom: 10px;
     margin-left: 20px; }
 
-.scrollBackground {
-  overflow-y: scroll; }
-  .scrollBackground .mont12 {
-    color: #48a2ba;
-    margin-bottom: 15px; }
-  .scrollBackground .mont15 {
-    font-weight: bold;
-    margin-bottom: 15px; }
-  .scrollBackground .robo13 {
-    line-height: 21px;
-    padding-bottom: 20px; }
 header {
   background-color: white;
-  width: 60%;
+  width: 100%;
   padding: 14px 5% 0; }
   header .date {
     display: block;
@@ -175,14 +165,17 @@ header {
     width: 30%;
     display: inline-block;
     margin: 20px 0; }
-.scrollBackground .mont12 {
-  color: #48a2ba;
-  margin-bottom: 15px; }
-.scrollBackground .mont15 {
-  font-weight: bold;
-  margin-bottom: 15px; }
-.scrollBackground .robo13 {
-  line-height: 21px;
-  padding-bottom: 20px; }
+
+.scrollBackground {
+  overflow-y: scroll; }
+  .scrollBackground .mont12 {
+    color: #48a2ba;
+    margin-bottom: 15px; }
+  .scrollBackground .mont15 {
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .scrollBackground .robo13 {
+    line-height: 21px;
+    padding-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
