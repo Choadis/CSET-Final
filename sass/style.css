@@ -84,11 +84,25 @@ body {
   background: -o-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
   padding: 20px; }
 
+.flex {
+  display: flex;
+  justify-content: space-between; }
+  .flex .flexBox {
+    width: 50%; }
+  .flex .flexBox2 {
+    width: 30%;
+    margin-left: -20%; }
+
+.scrollBackground {
+  background-color: #f7f7f7;
+  position: inline; }
+
 .sidebarContainer {
   width: 220px;
   height: 100%;
   background-color: #1b3c50;
-  padding: 210px 20px; }
+  padding: 210px 20px;
+  position: inline; }
   .sidebarContainer #profilePic {
     margin: -150px 0 50px 50px;
     border-radius: 50%; }
