@@ -101,22 +101,29 @@ body {
 
 .scrollBackground {
   background-color: #f7f7f7;
-  position: inline;
-  padding: 20px; }
+  padding: 20px;
+  height: 30%; }
+
+.mainContainer {
+  display: block;
+  height: 100%; }
+
+.headerContainer {
+  height: 40%; }
 
 .sidebarContainer {
-  width: 220px;
+  width: 400px;
   height: 100%;
   background-color: #1b3c50;
   padding: 210px 20px;
   position: inline; }
   .sidebarContainer #profilePic {
-    margin: -150px 0 50px 50px;
+    margin: -150px 0 50px 25px;
     border-radius: 50%;
     border: 2px solid #50e3c2; }
   .sidebarContainer .mont15 {
     color: #f7f7f7;
-    margin: -40px 0 40px 40px; }
+    margin: -40px 0 40px 25px; }
   .sidebarContainer .mont13 {
     color: #f7f7f7;
     margin-top: 30px;
@@ -128,14 +135,16 @@ body {
     margin-bottom: 10px;
     margin-left: 20px; }
 
-.scrollBackground .mont12 {
-  color: #48a2ba;
-  margin-bottom: 15px; }
-.scrollBackground .mont15 {
-  font-weight: bold;
-  margin-bottom: 15px; }
-.scrollBackground .robo13 {
-  line-height: 21px;
-  padding-bottom: 20px; }
+.scrollBackground {
+  overflow-y: scroll; }
+  .scrollBackground .mont12 {
+    color: #48a2ba;
+    margin-bottom: 15px; }
+  .scrollBackground .mont15 {
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .scrollBackground .robo13 {
+    line-height: 21px;
+    padding-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
