@@ -3,7 +3,7 @@ body {
 	padding: 20px;
 }
 .divBar{
-	width: 100%;
+	width: 97%;
 	height: 2px;
 	background-color: #6291a9;
 	margin: 30px auto;
@@ -22,9 +22,13 @@ body {
 .scrollBackground{
 	background-color: $textWhite;
 	padding: 20px;
-	height: 365px;
+	height: 347px;
 }
 .mainContainer{
 	display: block;
 	height: 100%;
+}
+.headerContainer{
+	height: 40%;
+	width: auto;
 }
