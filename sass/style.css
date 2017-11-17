@@ -97,7 +97,7 @@ body {
     width: 50%; }
   .flex .flexBox2 {
     width: 30%;
-    margin-left: -20%; }
+    margin-right: 10%; }
 
 .scrollBackground {
   background-color: #f7f7f7;
@@ -139,7 +139,7 @@ body {
 header {
   background-color: #f7f7f7;
   width: 100%;
-  padding: 14px 5% 0; }
+  padding: 14px 3% 0; }
   header .date {
     display: block;
     width: 100%;
@@ -170,12 +170,15 @@ header {
   overflow-y: scroll; }
   .scrollBackground .mont12 {
     color: #48a2ba;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    padding-left: 3%;
+    font-weight: bold; }
   .scrollBackground .mont15 {
-    font-weight: bold;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    padding-left: 3%; }
   .scrollBackground .robo13 {
     line-height: 21px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    padding-left: 3%; }
 
 /*# sourceMappingURL=style.css.map */
