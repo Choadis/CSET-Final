@@ -2,6 +2,12 @@ body {
 	@include gradient();
 	padding: 20px;
 }
+.divBar{
+	width: 97%;
+	height: 2px;
+	background-color: #6291a9;
+	margin: 30px auto;
+}
 .flex{
 	display: flex;
 	justify-content: space-between;
@@ -16,4 +22,5 @@ body {
 .scrollBackground{
 	background-color: $textWhite;
 	position: inline;
+	padding: 20px;
 }
