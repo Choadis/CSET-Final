@@ -21,6 +21,13 @@ body {
 }
 .scrollBackground{
 	background-color: $textWhite;
-	position: inline;
 	padding: 20px;
+	height: 30%;
+}
+.mainContainer{
+	display: block;
+	height: 100%;
+}
+.headerContainer{
+	height: 40%;
 }
