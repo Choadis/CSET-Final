@@ -98,9 +98,6 @@ body {
     width: 30%;
     margin-right: 10%; }
 
-.scrollBackground {
-  height: 347px; }
-
 .mainContainer {
   background-color: #f7f7f7;
   display: block;
@@ -163,7 +160,9 @@ header {
     margin: 20px 0; }
 
 .scrollBackground {
-  overflow-y: scroll; }
+  height: 347px;
+  overflow-y: scroll;
+  padding-right: -15px; }
   .scrollBackground .mont12 {
     color: #48a2ba;
     margin-bottom: 15px;
