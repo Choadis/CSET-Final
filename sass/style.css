@@ -137,8 +137,9 @@ body {
     margin-left: 20px; }
 
 header {
-  background-color: white;
-  width: 100%;
+  background-color: #f7f7f7;
+  height: 40%;
+  width: auto;
   padding: 14px 5% 0; }
   header .date {
     display: block;
