@@ -85,7 +85,7 @@ body {
   padding: 20px; }
 
 .divBar {
-  width: 100%;
+  width: 97%;
   height: 2px;
   background-color: #6291a9;
   margin: 30px auto; }
@@ -102,11 +102,15 @@ body {
 .scrollBackground {
   background-color: #f7f7f7;
   padding: 20px;
-  height: 365px; }
+  height: 347px; }
 
 .mainContainer {
   display: block;
   height: 100%; }
+
+.headerContainer {
+  height: 40%;
+  width: auto; }
 
 .sidebarContainer {
   width: 400px;
@@ -131,22 +135,11 @@ body {
     color: #f7f7f7;
     margin-bottom: 10px;
     margin-left: 20px; }
-  .scrollBackground {
-  overflow-y: scroll; }
-  .scrollBackground .mont12 {
-    color: #48a2ba;
-    margin-bottom: 15px; }
-  .scrollBackground .mont15 {
-    font-weight: bold;
-    margin-bottom: 15px; }
-  .scrollBackground .robo13 {
-    line-height: 21px;
-    padding-bottom: 20px; }
+
 header {
   background-color: #f7f7f7;
-  height: 40%;
-  width: auto;
-  padding: 14px 3% 0; }
+  width: 100%;
+  padding: 14px 5% 0; }
   header .date {
     display: block;
     width: 100%;
@@ -172,6 +165,7 @@ header {
     width: 30%;
     display: inline-block;
     margin: 20px 0; }
+
 .scrollBackground {
   overflow-y: scroll; }
   .scrollBackground .mont12 {
@@ -183,4 +177,5 @@ header {
   .scrollBackground .robo13 {
     line-height: 21px;
     padding-bottom: 20px; }
+
 /*# sourceMappingURL=style.css.map */
