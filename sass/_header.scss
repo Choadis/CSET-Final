@@ -1,8 +1,7 @@
 header {
-  //temp color
-  background-color: $textWhite;
+  height: 40%;
   width: 100%;
-  padding: 14px 3% 0;
+  padding: 14px 0 0;
   .date {
     display: block;
     width: 100%;
@@ -32,7 +31,7 @@ header {
     font-weight: 700;
   }
   .headerDiv {
-    width: 30%;
+    width: 33%;
     display: inline-block;
     margin: 20px 0;
   }
