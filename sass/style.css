@@ -78,10 +78,10 @@ table {
 
 body {
   background-color: #2fcfba;
-  background: linear-gradient(45deg, #2fcfba 50%, #47a1ba);
-  background: -webkit-linear-gradient(45deg, #2fcfba 50%, #47a1ba);
-  background: -moz-linear-gradient(45deg, #2fcfba 50%, #47a1ba);
-  background: -o-linear-gradient(45deg, #2fcfba 50%, #47a1ba);
+  background: linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
+  background: -webkit-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
+  background: -moz-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
+  background: -o-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
   padding: 20px; }
 
 .divBar {
@@ -146,5 +146,43 @@ body {
   .scrollBackground .robo13 {
     line-height: 21px;
     padding-bottom: 20px; }
+header {
+  background-color: white;
+  width: 60%;
+  padding: 14px 5% 0; }
+  header .date {
+    display: block;
+    width: 100%;
+    padding-bottom: 8px;
+    text-align: right;
+    color: #1b3c50; }
+  header .logOut {
+    float: right;
+    display: inline-block;
+    color: #59aac0; }
+  header .paths {
+    vertical-align: top;
+    display: inline-block;
+    color: #1b3c50; }
+  header h1 {
+    color: #59aac0; }
+  header h2 {
+    padding-top: 5px; }
+  header h3 {
+    color: #2e0a3a;
+    font-weight: 700; }
+  header .headerDiv {
+    width: 30%;
+    display: inline-block;
+    margin: 20px 0; }
+.scrollBackground .mont12 {
+  color: #48a2ba;
+  margin-bottom: 15px; }
+.scrollBackground .mont15 {
+  font-weight: bold;
+  margin-bottom: 15px; }
+.scrollBackground .robo13 {
+  line-height: 21px;
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
