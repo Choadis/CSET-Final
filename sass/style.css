@@ -175,18 +175,6 @@ header {
     width: 30%;
     display: inline-block;
     margin: 20px 0; }
-
-<<<<<<< HEAD
-.scrollBackground .mont12 {
-  color: #48a2ba;
-  margin-bottom: 15px; }
-.scrollBackground .mont15 {
-  font-weight: bold;
-  margin-bottom: 15px; }
-.scrollBackground .robo13 {
-  line-height: 21px;
-  padding-bottom: 20px; }
-=======
 .scrollBackground {
   overflow-y: scroll; }
   .scrollBackground .mont12 {
@@ -198,6 +186,4 @@ header {
   .scrollBackground .robo13 {
     line-height: 21px;
     padding-bottom: 20px; }
->>>>>>> c123a316387627afba0ff42373cb82a69ce275bc
-
 /*# sourceMappingURL=style.css.map */
