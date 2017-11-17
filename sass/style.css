@@ -128,6 +128,9 @@ header {
     color: #59aac0; }
   header h2 {
     padding-top: 5px; }
+  header h3 {
+    color: #2e0a3a;
+    font-weight: 700; }
   header .headerDiv {
     width: 30%;
     display: inline-block;
