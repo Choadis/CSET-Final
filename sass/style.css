@@ -126,9 +126,10 @@ body {
     color: #f7f7f7;
     margin-bottom: 10px;
     margin-left: 20px; }
+
 header {
   background-color: white;
-  width: 60%;
+  width: 100%;
   padding: 14px 5% 0; }
   header .date {
     display: block;
@@ -155,6 +156,7 @@ header {
     width: 30%;
     display: inline-block;
     margin: 20px 0; }
+
 .scrollBackground .mont12 {
   color: #48a2ba;
   margin-bottom: 15px; }
