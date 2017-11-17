@@ -1,0 +1,26 @@
+.sidebarContainer{
+  width: 220px;
+  height: 100%;
+  background-color: $sideBlue;
+  padding: 210px 20px;
+  #profilePic{
+    margin: -150px 0 50px 50px;
+    border-radius: 50%;
+  }
+  .mont15{
+    color: $textWhite;
+    margin: -40px 0 40px 40px;
+  }
+  .mont13{
+    color: $textWhite;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .mont11{
+    display: block;
+    text-decoration: none;
+    color: $textWhite;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+}
