@@ -93,10 +93,9 @@ body {
   display: flex;
   justify-content: space-between; }
   .flex .flexBox {
-    width: 50%; }
+    width: 60%; }
   .flex .flexBox2 {
-    width: 30%;
-    margin-right: 10%; }
+    width: 30%; }
 
 .mainContainer {
   background-color: #f7f7f7;
@@ -147,7 +146,7 @@ header {
     display: inline-block;
     color: #1b3c50; }
   header h1 {
-    color: #59aac0;
+    color: #48a2ba;
     font-weight: 700; }
   header .mont15 {
     padding-top: 5px; }
@@ -162,7 +161,8 @@ header {
 .scrollBackground {
   height: 347px;
   overflow-y: scroll;
-  margin-right: -15px; }
+  margin-right: -13px;
+  padding-right: 7px; }
   .scrollBackground .mont12 {
     color: #48a2ba;
     margin-bottom: 15px;
@@ -172,5 +172,15 @@ header {
   .scrollBackground .robo13 {
     line-height: 21px;
     padding-bottom: 20px; }
+
+.scrollBackground::-webkit-scrollbar-track {
+  background-color: #f7f7f7; }
+
+.scrollBackground::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5; }
+
+.scrollBackground::-webkit-scrollbar-thumb {
+  background-color: #38bfba; }
 
 /*# sourceMappingURL=style.css.map */
