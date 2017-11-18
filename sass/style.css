@@ -93,10 +93,9 @@ body {
   display: flex;
   justify-content: space-between; }
   .flex .flexBox {
-    width: 50%; }
+    width: 60%; }
   .flex .flexBox2 {
-    width: 30%;
-    margin-right: 10%; }
+    width: 30%; }
 
 .mainContainer {
   background-color: #f7f7f7;
