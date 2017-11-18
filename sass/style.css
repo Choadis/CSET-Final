@@ -161,8 +161,8 @@ header {
 .scrollBackground {
   height: 347px;
   overflow-y: scroll;
-  margin-right: -15px;
-  padding-right: 15px; }
+  margin-right: -13px;
+  padding-right: 7px; }
   .scrollBackground .mont12 {
     color: #48a2ba;
     margin-bottom: 15px;
