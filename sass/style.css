@@ -100,12 +100,12 @@ body {
 .mainContainer {
   background-color: #f7f7f7;
   display: block;
-  height: 100%;
+  height: 630px;
   padding: 20px; }
 
 .sidebarContainer {
   width: 400px;
-  height: 100%;
+  height: 250px;
   background-color: #1b3c50;
   padding: 210px 20px;
   position: inline; }
@@ -154,12 +154,12 @@ header {
     color: #2e0a3a;
     font-weight: 700; }
   header .headerDiv {
-    width: 33%;
+    width: 30%;
     display: inline-block;
     margin: 20px 0; }
 
 .scrollBackground {
-  height: 347px;
+  height: 60%;
   overflow-y: scroll;
   margin-right: -13px;
   padding-right: 7px; }
