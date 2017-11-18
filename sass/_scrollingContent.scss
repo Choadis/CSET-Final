@@ -1,8 +1,9 @@
 .scrollBackground{
   height: 347px;
   overflow-y: scroll;
-  margin-right: -15px;
-  padding-right: 15px;
+  //the negative margin allows the box to expand into the containers padding to make room for the slider
+  margin-right: -13px;
+  padding-right: 7px;
   .mont12{
     color: $textBlue;
     margin-bottom: 15px;
@@ -15,6 +16,7 @@
     line-height: 21px;
     padding-bottom: 20px;
   }
+//these webkits allow for changing of the slider
 }
 .scrollBackground::-webkit-scrollbar-track
 {
