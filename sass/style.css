@@ -105,7 +105,8 @@ body {
   background-color: #f7f7f7;
   display: block;
   height: 630px;
-  padding: 20px; }
+  padding: 20px;
+  box-shadow: 3px 3px 5px #606060; }
 
 .none {
   display: none; }
@@ -115,7 +116,8 @@ body {
   height: 250px;
   background-color: #1b3c50;
   padding: 210px 20px;
-  position: inline; }
+  position: inline;
+  box-shadow: 3px 3px 5px #606060; }
   .sidebarContainer a:hover {
     background-color: #0b2535;
     transition-duration: 1s; }
@@ -291,5 +293,18 @@ header {
     margin-right: 10px; }
   .courses .flex p {
     color: #50e3c2; }
+.courses .coursesBox {
+  background-color: white;
+  padding: 50px 0;
+  text-align: center; }
+  .courses .coursesBox h1 {
+    margin-bottom: 20px; }
+  .courses .coursesBox h2 {
+    margin-bottom: 50px; }
+.courses .coursesButton {
+  padding: 15px 45px;
+  color: white;
+  font-weight: bold;
+  background-color: #37beba; }
 
 /*# sourceMappingURL=style.css.map */
