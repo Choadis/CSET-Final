@@ -4,6 +4,10 @@
   background-color: $sideBlue;
   padding: 210px 20px;
   position: inline;
+  a:hover {
+    background-color: $highlight;
+    transition-duration: 1s;
+  }
   #profilePic{
     margin: -150px 0 50px 25px;
     border-radius: 50%;
@@ -12,12 +16,14 @@
   .mont15{
     color: $textWhite;
     margin: -40px 0 40px 25px;
+    padding: 5px 0;
   }
   .mont13{
     display: block;
     color: $textWhite;
     margin-top: 30px;
     margin-bottom: 20px;
+    padding: 5px 0;
   }
   .mont11{
     display: block;
@@ -25,5 +31,6 @@
     color: $textWhite;
     margin-bottom: 10px;
     margin-left: 20px;
+    padding: 5px 0;
   }
 }

@@ -1,6 +1,9 @@
 body {
 	@include gradient();
 	padding: 20px;
+	.textLink {
+		color: #50e3c2;
+	}
 }
 .divBar{
 	height: 2px;
