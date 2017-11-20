@@ -83,6 +83,8 @@ body {
   background: -moz-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
   background: -o-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
   padding: 20px; }
+  body .textLink {
+    color: #50e3c2; }
 
 .divBar {
   height: 2px;
@@ -111,24 +113,30 @@ body {
   background-color: #1b3c50;
   padding: 210px 20px;
   position: inline; }
+  .sidebarContainer a:hover {
+    background-color: #0b2535;
+    transition-duration: 1s; }
   .sidebarContainer #profilePic {
     margin: -150px 0 50px 25px;
     border-radius: 50%;
     border: 2px solid #50e3c2; }
   .sidebarContainer .mont15 {
     color: #f7f7f7;
-    margin: -40px 0 40px 25px; }
+    margin: -40px 0 40px 25px;
+    padding: 5px 0; }
   .sidebarContainer .mont13 {
     display: block;
     color: #f7f7f7;
     margin-top: 30px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    padding: 5px 0; }
   .sidebarContainer .mont11 {
     display: block;
     text-decoration: none;
     color: #f7f7f7;
     margin-bottom: 10px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    padding: 5px 0; }
 
 header {
   height: 40%;
@@ -174,7 +182,8 @@ header {
     margin-bottom: 15px; }
   .scrollBackground .robo13 {
     line-height: 21px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    width: 85%; }
 
 .scrollBackground::-webkit-scrollbar-track {
   background-color: #f7f7f7; }
