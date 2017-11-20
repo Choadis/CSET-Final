@@ -291,5 +291,18 @@ header {
     margin-right: 10px; }
   .courses .flex p {
     color: #50e3c2; }
+.courses .coursesBox {
+  background-color: white;
+  padding: 50px 0;
+  text-align: center; }
+  .courses .coursesBox h1 {
+    margin-bottom: 20px; }
+  .courses .coursesBox h2 {
+    margin-bottom: 50px; }
+.courses .coursesButton {
+  padding: 15px 45px;
+  color: white;
+  font-weight: bold;
+  background-color: #37beba; }
 
 /*# sourceMappingURL=style.css.map */
