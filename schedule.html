@@ -5,6 +5,8 @@
   <title> Schedule </title>
   <link rel="stylesheet" href="sass/style.css"> <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700%7CRoboto+Slab" rel="stylesheet">
   <meta name=viewport content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="js/jQuery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body class="schedule flex">
   <!-- The aside is for the fixed sidebar on all of the pages -->
@@ -20,12 +22,12 @@
     </div>
     <!-- Navigation links and directory follow here -->
     <div>
-    <a href="index.html" class="mont13"><strong> Academic Services
-    </strong></a>
+      <a href="index.html" class="mont13"><strong> Academic Services
+      </strong></a>
       <!-- First div contains working navs -->
       <div>
-      	<a href="schedule.html" class="mont11"> Current Schedule
-       	</a>
+        <a href="schedule.html" class="mont11"> Current Schedule
+        </a>
         <a href="grades.html" class="mont11"> Grades &amp; Reporting
         </a>
         <a href="courses.html" class="mont11"> Upcoming Courses
@@ -46,182 +48,182 @@
   </aside>
   <!-- Header on each page -->
   <div class="mainContainer">
-	<header class="headerContainer">
-    <!-- Placeholder for the paths -->
-		<a class="mont10 date">Placeholder
-		</a>
-    <!-- Placeholder for the paths -->
-		<p class="mont10 paths">Placeholder
-		</p>
-    <!-- Logout to logout screen -->
-		<p class="mont10 logOut">Log out?</p>
-    <div class="divBar"></div>
-    <!-- Current program section -->
-    <h1 class="mont12">CURRENT PROGRAM:</h1>
-    <h2 class="mont15">Computer Software Engineering Technology</h2>
-    <div class="headerDiv">
-      <h3 class="mont12">CURRENT SEMESTER:</h3>
-      <h2 class="mont15">Fall 2017</h2>
-    </div>
-    <div class="headerDiv">
-      <h3 class="mont12">ENROLLED CREDIT HOURS:</h3>
-      <h2 class="mont15">15</h2>
-    </div>
-    <div class="headerDiv">
-      <h3 class="mont12">ACADEMIC STANDING:</h3>
-      <h2 class="mont15">Good</h2>
-    </div>
-    <div class="divBar"></div>
-	</header>
-  <!-- This section contains the toggled calendar elements (The current schedule as well as the weekly calendar view) -->
-  <section class="scrollBackground">
-    <!-- This div is the default displayed element on page load. Hidden on toggle -->
-    <div class="none">
-      <h1 class="mont12">CURRENT SCHEDULE
-      </h1>
-      <div class="selector">
-      <span class="mont10">View as:
-        <a>List
-        </a>
-        <p> | </p>
-        <p>Calendar
-        </p>
-      </span>
-    </div>
-      <!-- This article holds the entirety of the schedule -->
-      <article>
-      <div>
-        <h3 class="mont12">CSET 105, M, 12:00pm - 4:30pm
-        </h3>
-        <h2 class="mont15">Intro to Web Applications
-        </h2>
+    <header class="headerContainer">
+      <!-- Placeholder for the paths -->
+      <a class="mont10 date">Placeholder
+      </a>
+      <!-- Placeholder for the paths -->
+      <p class="mont10 paths">Placeholder
+      </p>
+      <!-- Logout to logout screen -->
+      <p class="mont10 logOut">Log out?</p>
+      <div class="divBar"></div>
+      <!-- Current program section -->
+      <h1 class="mont12">CURRENT PROGRAM:</h1>
+      <h2 class="mont15">Computer Software Engineering Technology</h2>
+      <div class="headerDiv">
+        <h3 class="mont12">CURRENT SEMESTER:</h3>
+        <h2 class="mont15">Fall 2017</h2>
       </div>
-      <div>
-        <h3 class="mont12">CSET 110, T, 12:00pm - 4:30pm &amp; W, 12:30pm - 4:30pm
-        </h3>
-        <h2 class="mont15">Web Development I
-        </h2>
+      <div class="headerDiv">
+        <h3 class="mont12">ENROLLED CREDIT HOURS:</h3>
+        <h2 class="mont15">15</h2>
       </div>
-      <div>
-        <h3 class="mont12">CSET 115, R, 12:00pm - 4:30pm
-        </h3>
-        <h2 class="mont15">Technical Requirements &amp; Data Structures
-        </h2>
+      <div class="headerDiv">
+        <h3 class="mont12">ACADEMIC STANDING:</h3>
+        <h2 class="mont15">Good</h2>
       </div>
-      <div>
-        <h3 class="mont12">CSET 120, F, 12:00pm - 4:30pm
-        </h3>
-        <h2 class="mont15">Software Project I/Open Lab
-        </h2>
-      </div>
-      <div>
-        <h3 class="mont12">ENGL 100, M &amp; W, 8am - 9:30am
-        </h3>
-        <h2 class="mont15">English Composition
-        </h2>
-      </div>
-      <div>
-        <h3 class="mont12">MATH 100, T &amp; R, 8am - 9:30pm
-        </h3>
-        <h2 class="mont15">College Algebra
-        </h2>
-      </div>
-    </article>
-    </div>
-    <!-- This div is the alternate (toggled) element for this page. Hidden on page load -->
-    <div>
-      <h1 class="mont12">CURRENT SCHEDULE
-      </h1>
-      <div class="selector">
-      <span class="mont10">View as:
-        <a>List
-        </a>
-        <p> | </p>
-        <p>Calendar
-        </p>
-      </span>
-    </div>
-      <!-- This article contains the table weekly schedule -->
-      <article class="calendarContainer">
-        <div class="calendarColumn">
-          <p class="day"> Monday
-          </p>
-          <div class="calendarBlock1">
-            <div>
-            <p class="mont8"> ENGL 101, 8:00 - 9:30am
-            </p>
-            <p class="mont10">English Composition
-            </p>
-          </div>
-          </div>
-          <div class="calendarBlock2">
-            <p class="mont8"> CSET 105, 12:00 - 4:30pm
-            </p>
-            <p class="mont10"> Intro to Web Applications
-            </p>
-          </div>
+      <div class="divBar"></div>
+    </header>
+    <!-- This section contains the toggled calendar elements (The current schedule as well as the weekly calendar view) -->
+    <section class="scrollBackground">
+      <!-- This div is the default displayed element on page load. Hidden on toggle -->
+      <div id="scheduleList">
+        <h1 class="mont12">CURRENT SCHEDULE
+        </h1>
+        <div class="selector">
+          <span class="mont10">View as:
+            <a class="list">List
+            </a>
+            <span> | </span>
+            <a class="calendar">Calendar
+            </a>
+          </span>
         </div>
-        <div class="calendarColumn">
-          <p class="day"> Tuesday
-          </p>
-          <div class="calendarBlock1">
-            <p class="mont8"> MATH 100, 8:00 - 9:30am
-            </p>
-            <p class="mont10"> College Algebra
-            </p>
+        <!-- This article holds the entirety of the schedule -->
+        <article>
+          <div>
+            <h3 class="mont12">CSET 105, M, 12:00pm - 4:30pm
+            </h3>
+            <h2 class="mont15">Intro to Web Applications
+            </h2>
           </div>
-          <div class="calendarBlock2">
-            <p class="mont8"> CSET 110, 12:00 - 4:30pm
-            </p>
-            <p class="mont10"> Web Development I
-            </p>
+          <div>
+            <h3 class="mont12">CSET 110, T, 12:00pm - 4:30pm &amp; W, 12:30pm - 4:30pm
+            </h3>
+            <h2 class="mont15">Web Development I
+            </h2>
           </div>
+          <div>
+            <h3 class="mont12">CSET 115, R, 12:00pm - 4:30pm
+            </h3>
+            <h2 class="mont15">Technical Requirements &amp; Data Structures
+            </h2>
+          </div>
+          <div>
+            <h3 class="mont12">CSET 120, F, 12:00pm - 4:30pm
+            </h3>
+            <h2 class="mont15">Software Project I/Open Lab
+            </h2>
+          </div>
+          <div>
+            <h3 class="mont12">ENGL 100, M &amp; W, 8am - 9:30am
+            </h3>
+            <h2 class="mont15">English Composition
+            </h2>
+          </div>
+          <div>
+            <h3 class="mont12">MATH 100, T &amp; R, 8am - 9:30pm
+            </h3>
+            <h2 class="mont15">College Algebra
+            </h2>
+          </div>
+        </article>
+      </div>
+      <!-- This div is the alternate (toggled) element for this page. Hidden on page load -->
+      <div id="scheduleGraph">
+        <h1 class="mont12">CURRENT SCHEDULE
+        </h1>
+        <div class="selector">
+          <span class="mont10">View as:
+            <a class="list">List
+            </a>
+            <p> | </p>
+            <p class="calendar">Calendar
+            </p>
+          </span>
         </div>
-        <div class="calendarColumn">
-          <p class="day"> Wednesday
-          </p>
-          <div class="calendarBlock1">
-            <p class="mont8"> ENGL 101, 8:00 - 9:30am
+        <!-- This article contains the table weekly schedule -->
+        <article class="calendarContainer">
+          <div class="calendarColumn">
+            <p class="day"> Monday
             </p>
-            <p class="mont10">English Composition
-            </p>
+            <div class="calendarBlock1">
+              <div>
+                <p class="mont8"> ENGL 101, 8:00 - 9:30am
+                </p>
+                <p class="mont10">English Composition
+                </p>
+              </div>
+            </div>
+            <div class="calendarBlock2">
+              <p class="mont8"> CSET 105, 12:00 - 4:30pm
+              </p>
+              <p class="mont10"> Intro to Web Applications
+              </p>
+            </div>
           </div>
-          <div class="calendarBlock3">
-            <p class="mont8">CSET 110, 12:30 - 4:30pm
+          <div class="calendarColumn">
+            <p class="day"> Tuesday
             </p>
-            <p class="mont10">Web Development I
-            </p>
+            <div class="calendarBlock1">
+              <p class="mont8"> MATH 100, 8:00 - 9:30am
+              </p>
+              <p class="mont10"> College Algebra
+              </p>
+            </div>
+            <div class="calendarBlock2">
+              <p class="mont8"> CSET 110, 12:00 - 4:30pm
+              </p>
+              <p class="mont10"> Web Development I
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="calendarColumn">
-          <p class="day">Thursday
-          </p>
-          <div class="calendarBlock1">
-            <p class="mont8">MATH 100, 8:00 - 9:30am
+          <div class="calendarColumn">
+            <p class="day"> Wednesday
             </p>
-            <p class="mont10">College Algebra
-            </p>
+            <div class="calendarBlock1">
+              <p class="mont8"> ENGL 101, 8:00 - 9:30am
+              </p>
+              <p class="mont10">English Composition
+              </p>
+            </div>
+            <div class="calendarBlock3">
+              <p class="mont8">CSET 110, 12:30 - 4:30pm
+              </p>
+              <p class="mont10">Web Development I
+              </p>
+            </div>
           </div>
-          <div class="calendarBlock2">
-            <p class="mont8">CSET 115, 12:00 - 4:30pm
+          <div class="calendarColumn">
+            <p class="day">Thursday
             </p>
-            <p class="mont10">Technical  Requirements &amp; Data Structures
-            </p>
+            <div class="calendarBlock1">
+              <p class="mont8">MATH 100, 8:00 - 9:30am
+              </p>
+              <p class="mont10">College Algebra
+              </p>
+            </div>
+            <div class="calendarBlock2">
+              <p class="mont8">CSET 115, 12:00 - 4:30pm
+              </p>
+              <p class="mont10">Technical  Requirements &amp; Data Structures
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="calendarColumn">
-          <p class="day friday">Friday
-          </p>
-          <div class="calendarBlock2">
-            <p class="mont8">CSET 120, 12:00 - 4:30pm
+          <div class="calendarColumn">
+            <p class="day friday">Friday
             </p>
-            <p class="mont10">Software Project I / Open Lab
-            </p>
+            <div class="calendarBlock2">
+              <p class="mont8">CSET 120, 12:00 - 4:30pm
+              </p>
+              <p class="mont10">Software Project I / Open Lab
+              </p>
+            </div>
           </div>
-        </div>
-      </article>
-    </div>
-  </section>
-</div>
+        </article>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
