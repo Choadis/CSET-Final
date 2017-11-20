@@ -192,6 +192,9 @@ header {
     display: inline; }
 
 .schedule .sidebarContainer {
-  width: 180px; }
+  width: 180px;
+  text-align: center; }
+.schedule .mainContainer {
+  width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
