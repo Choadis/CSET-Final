@@ -191,10 +191,36 @@ header {
     padding-right: 2px;
     display: inline; }
 
+.index .sidebarContainer {
+  width: 180px;
+  text-align: center; }
+.index .mainContainer {
+  width: 80%; }
+.index a {
+  text-decoration: none; }
+
 .schedule .sidebarContainer {
   width: 180px;
   text-align: center; }
 .schedule .mainContainer {
   width: 80%; }
+.schedule a {
+  text-decoration: none; }
+
+.grades .sidebarContainer {
+  width: 180px;
+  text-align: center; }
+.grades .mainContainer {
+  width: 80%; }
+.grades a {
+  text-decoration: none; }
+
+.courses .sidebarContainer {
+  width: 180px;
+  text-align: center; }
+.courses .mainContainer {
+  width: 80%; }
+.courses a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
