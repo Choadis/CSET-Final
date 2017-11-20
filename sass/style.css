@@ -90,8 +90,7 @@ body {
   margin: 30px auto; }
 
 .flex {
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
   .flex .flexBox {
     width: 60%; }
   .flex .flexBox2 {
