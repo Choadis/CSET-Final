@@ -224,6 +224,74 @@ header {
   text-align: center; }
 .grades .mainContainer {
   width: 80%; }
+.grades .purple {
+  color: #2e0a3a; }
+.grades .percentBox {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: white; }
+  .grades .percentBox .circle {
+    width: 152px;
+    height: 152px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, lightgrey, lightgrey 60%, #33c7ba 60%, #33c7ba 40%);
+    border-image-slice: 1;
+    text-align: center; }
+    .grades .percentBox .circle div {
+      padding: 30px;
+      border-radius: 100px;
+      position: relative;
+      display: block;
+      top: 11px;
+      left: 11px;
+      height: 70px;
+      width: 70px;
+      background-color: white; }
+      .grades .percentBox .circle div .mont30 {
+        color: #59aac0; }
+      .grades .percentBox .circle div .mont12 {
+        color: black;
+        font-weight: 400; }
+  .grades .percentBox .percentAside {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around; }
+    .grades .percentBox .percentAside .mont10 {
+      color: #59aac0;
+      font-weight: 700; }
+    .grades .percentBox .percentAside .mont12 {
+      color: black;
+      padding-top: 5px;
+      font-weight: 400; }
+.grades .flexBox2 {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end; }
+.grades .gradeBox {
+  background-color: white;
+  padding: 11px;
+  margin-bottom: 41px;
+  text-align: center;
+  color: #33c7ba;
+  font-weight: 700; }
+  .grades .gradeBox .mont10 {
+    color: #48a2ba; }
+.grades table {
+  margin-bottom: 80px; }
+  .grades table th {
+    color: #48a2ba;
+    font-weight: 700;
+    text-align: left; }
+  .grades table td {
+    padding: 5px 50px 5px 0;
+    color: #33c7ba !important;
+    font-weight: 400 !important; }
+  .grades table .tableRight {
+    padding-right: 0; }
 .grades a {
   text-decoration: none; }
 

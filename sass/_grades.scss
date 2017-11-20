@@ -6,6 +6,90 @@
   .mainContainer {
     width: 80%;
   }
+  .purple {
+    color: $headBlack;
+  }
+  .percentBox {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: white;
+    .circle {
+      width: 152px;
+      height: 152px;
+      border-radius: 100px;
+      background: linear-gradient(90deg, lightgrey, lightgrey 60%, #33c7ba 60%, #33c7ba 40%);
+      border-image-slice: 1;
+      text-align: center;
+      div {
+        padding: 30px;
+        border-radius: 100px;
+        position: relative;
+        display: block;
+        top: 11px;
+        left: 11px;
+        height: 70px;
+        width: 70px;
+        background-color: white;
+        .mont30 {
+          color: $lBlue;
+        }
+        .mont12 {
+          color: black;
+          font-weight: 400;
+        }
+      }
+    }
+    .percentAside {
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+      .mont10 {
+        color: $lBlue;
+        font-weight: 700;
+      }
+      .mont12 {
+        color: black;
+        padding-top: 5px;
+        font-weight: 400;
+      }
+    }
+  }
+  .flexBox2 {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .gradeBox {
+    background-color: white;
+    padding: 11px;
+    margin-bottom: 41px;
+    text-align: center;
+    color: #33c7ba;
+    font-weight: 700;
+    .mont10 {
+      color: $textBlue;
+    }
+  }
+  table {
+    margin-bottom: 80px;
+    th {
+      color: $textBlue;
+      font-weight: 700;
+      text-align: left;
+    }
+    td {
+      padding: 5px 50px 5px 0;
+      color: #33c7ba !important;
+      font-weight: 400 !important;
+    }
+    .tableRight {
+      padding-right: 0;
+    }
+  }
   a {
     text-decoration: none;
   }
