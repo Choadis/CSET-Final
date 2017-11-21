@@ -72,6 +72,10 @@ table {
   font-family: "Montserrat", sans-serif;
   font-size: 15px; }
 
+.mont18 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px; }
+
 .mont30 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px; }
@@ -440,5 +444,31 @@ header {
   width: 100%;
   background-color: grey;
   opacity: .6; }
+
+.courses .ddSection {
+  overflow-y: scroll;
+  height: 60%; }
+  .courses .ddSection .mont18:first-child {
+    color: #44ccc0;
+    margin-bottom: 10px; }
+  .courses .ddSection .mont18 {
+    margin-bottom: 20px; }
+  .courses .ddSection .mont15 {
+    margin-top: -5px;
+    color: #44ccc0; }
+  .courses .ddSection .progressBar {
+    background: linear-gradient(90deg, #33c7ba, #33c7ba 60%, lightgrey 60%, lightgrey 40%);
+    width: auto;
+    height: 5px;
+    margin-bottom: 10px;
+    border-radius: 10%; }
+  .courses .ddSection .menuArea {
+    margin: 20px; }
+    .courses .ddSection .menuArea p {
+      display: inline;
+      float: right; }
+    .courses .ddSection .menuArea .divBar {
+      margin-top: 20px;
+      background-color: #44ccc0; }
 
 /*# sourceMappingURL=style.css.map */
