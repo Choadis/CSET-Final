@@ -436,16 +436,8 @@ header {
     height: 100%;
     background-color: #359ca1; }
 
-.alert {
-  top: 0;
-  left: 0;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  background-color: grey;
-  opacity: .6; }
-
 .courses .ddSection {
+  display: none;
   overflow-y: scroll;
   height: 60%; }
   .courses .ddSection .mont18:first-child {
@@ -470,5 +462,14 @@ header {
     .courses .ddSection .menuArea .divBar {
       margin-top: 20px;
       background-color: #44ccc0; }
+
+.alert {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  opacity: .6; }
 
 /*# sourceMappingURL=style.css.map */
