@@ -122,26 +122,32 @@ body {
     background-color: #0b2535;
     transition-duration: 1s; }
   .sidebarContainer #profilePic {
-    margin: -150px 0 50px 25px;
+    margin: -150px 0 50px 0px;
     border-radius: 50%;
     border: 2px solid #50e3c2; }
   .sidebarContainer .mont15 {
+    width: 100%;
     color: #f7f7f7;
-    margin: -40px 0 40px 25px;
-    padding: 5px 0; }
+    padding: 5px 0;
+    margin-top: -40px; }
   .sidebarContainer .mont13 {
+    text-align: left;
+    width: 100%;
     display: block;
     color: #f7f7f7;
     margin-top: 30px;
     margin-bottom: 20px;
-    padding: 5px 0; }
+    margin-left: -20px;
+    padding: 5px 20px; }
   .sidebarContainer .mont11 {
+    text-align: center;
+    width: 100%;
     display: block;
     text-decoration: none;
     color: #f7f7f7;
     margin-bottom: 10px;
-    margin-left: 20px;
-    padding: 5px 0; }
+    margin-left: -20px;
+    padding: 5px 20px; }
 
 header {
   height: 40%;
@@ -226,6 +232,10 @@ header {
   width: 80%; }
 .schedule a {
   text-decoration: none; }
+.schedule #scheduleList article {
+  padding-top: 30px; }
+  .schedule #scheduleList article .mont12 {
+    color: #2e0a3a; }
 .schedule .calendarContainer {
   background-color: rgba(47, 207, 186, 0.15);
   display: flex;
