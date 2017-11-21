@@ -387,4 +387,13 @@ header {
   font-weight: bold;
   background-color: #37beba; }
 
+.alert {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  opacity: .6; }
+
 /*# sourceMappingURL=style.css.map */
