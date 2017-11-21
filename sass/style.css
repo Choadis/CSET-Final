@@ -64,6 +64,10 @@ table {
   font-family: "Montserrat", sans-serif;
   font-size: 13px; }
 
+.mont14 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px; }
+
 .mont15 {
   font-family: "Montserrat", sans-serif;
   font-size: 15px; }
@@ -360,21 +364,62 @@ header {
 .courses .flex {
   justify-content: space-between; }
   .courses .flex h1 {
-    margin-right: 10px; }
+    margin-right: 10px;
+    margin-bottom: 30px; }
   .courses .flex p {
     color: #50e3c2; }
-.courses .coursesBox {
+.courses .coursesStart {
   background-color: white;
   padding: 50px 0;
   text-align: center; }
-  .courses .coursesBox h1 {
+  .courses .coursesStart h1 {
     margin-bottom: 20px; }
-  .courses .coursesBox h2 {
+  .courses .coursesStart h2 {
     margin-bottom: 50px; }
+.courses .coursesBox {
+  display: none;
+  background-color: white;
+  padding: 25px; }
+  .courses .coursesBox .flex1 {
+    display: flex;
+    justify-content: space-around; }
+  .courses .coursesBox .mont15 {
+    margin: 20px 0; }
+.courses .coursesList .flex {
+  margin-bottom: 30px;
+  justify-content: initial; }
+.courses .coursesList .coursesChunk {
+  margin-top: 2px;
+  margin-left: 10px; }
+.courses .coursesList .mont12 {
+  color: #48a2ba;
+  text-align: left;
+  margin-bottom: 10px; }
+.courses .coursesList .mont15 {
+  color: black;
+  text-align: left;
+  margin: 0; }
 .courses .coursesButton {
   padding: 15px 45px;
   color: white;
   font-weight: bold;
   background-color: #37beba; }
+.courses .mont14 {
+  color: #33c7ba;
+  font-weight: bold;
+  margin-bottom: 20px; }
+.courses .progressBar {
+  display: flex;
+  border-radius: 1px;
+  height: 5px;
+  width: 100%; }
+  .courses .progressBar .progressOne {
+    width: 50%;
+    height: 100%;
+    background-color: #50e3c2; }
+  .courses .progressBar .progressTwo {
+    width: 50%;
+    height: 100%;
+    background-color: #359ca1; }
 
 /*# sourceMappingURL=style.css.map */
