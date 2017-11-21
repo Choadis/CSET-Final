@@ -9,6 +9,14 @@
   a {
     text-decoration: none;
   }
+  #scheduleList {
+    article {
+      padding-top: 30px;
+      .mont12 {
+        color: $headBlack;
+      }
+    }
+  }
   .calendarContainer{
     .mont8{
       padding-bottom: 5px;
