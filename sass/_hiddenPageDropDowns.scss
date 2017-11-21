@@ -1,0 +1,35 @@
+.courses{
+  .ddSection{
+    overflow-y: scroll;
+    height: 60%;
+    .mont18:first-child{
+      color: #44ccc0;
+      margin-bottom: 10px;
+    }
+    .mont18{
+      margin-bottom: 20px;
+    }
+    .mont15{
+      margin-top: -5px;
+      color: #44ccc0;
+    }
+    .progressBar{
+    background: linear-gradient(90deg, #33c7ba, #33c7ba 60%, lightgrey 60%, lightgrey 40%);
+    width: auto;
+    height: 5px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    }
+    .menuArea{
+      margin: 20px;
+    p{
+      display: inline;
+      float: right;
+    }
+    .divBar{
+      margin-top: 20px;
+      background-color: #44ccc0;
+    }
+  }
+}
+}
