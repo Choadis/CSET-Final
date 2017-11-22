@@ -1,21 +1,46 @@
 .courses{
   #cisDD{
     margin-bottom: 20px;
-    // display: none;
-      .mont15{
-        color: black;
-      }
-      div{
-        display: block;
-      }
-      .mont12{
-        display: inline;
-        color: $textBlue;
-      }
-      .cisBox{
-        display: inline-block;
-        margin-left: 20px;
-        margin-top: 15px;
-      }
+    display: none;
+    .mont15{
+      color: black;
+    }
+    div{
+      display: block;
+    }
+    .mont12{
+      display: inline;
+      color: $textBlue;
+    }
+    .cisBox{
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 15px;
     }
   }
+  #engDD{
+    margin-bottom: 20px;
+    display: none;
+    .mont15{
+      color: black;
+    }
+    .engBoxOne{
+      width: 49%;
+    }
+    .engBoxTwo{
+      width: 49%;
+    }
+    div{
+      display: block;
+    }
+    .mont12{
+      display: inline;
+      color: $textBlue;
+    }
+    .cisBox{
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 15px;
+    }
+  }
+}

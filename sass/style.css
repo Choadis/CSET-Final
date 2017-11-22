@@ -437,6 +437,7 @@ header {
     background-color: #359ca1; }
 
 .courses .ddSection {
+  display: none;
   overflow-y: scroll;
   height: 60%;
   width: 100%; }
@@ -458,13 +459,15 @@ header {
     margin: 20px; }
     .courses .ddSection .menuArea p {
       display: inline;
-      float: right; }
+      float: right;
+      margin-top: -30px; }
     .courses .ddSection .menuArea .divBar {
       margin-top: 20px;
       background-color: #44ccc0; }
 
 .courses #cisDD {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  display: none; }
   .courses #cisDD .mont15 {
     color: black; }
   .courses #cisDD div {
@@ -473,6 +476,24 @@ header {
     display: inline;
     color: #48a2ba; }
   .courses #cisDD .cisBox {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px; }
+.courses #engDD {
+  margin-bottom: 20px;
+  display: none; }
+  .courses #engDD .mont15 {
+    color: black; }
+  .courses #engDD .engBoxOne {
+    width: 49%; }
+  .courses #engDD .engBoxTwo {
+    width: 49%; }
+  .courses #engDD div {
+    display: block; }
+  .courses #engDD .mont12 {
+    display: inline;
+    color: #48a2ba; }
+  .courses #engDD .cisBox {
     display: inline-block;
     margin-left: 20px;
     margin-top: 15px; }

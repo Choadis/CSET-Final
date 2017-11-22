@@ -1,5 +1,6 @@
 .courses{
   .ddSection{
+    display: none;
     overflow-y: scroll;
     height: 60%;
     width: 100%;;
@@ -26,6 +27,7 @@
     p{
       display: inline;
       float: right;
+      margin-top: -30px;
     }
     .divBar{
       margin-top: 20px;
