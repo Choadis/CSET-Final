@@ -239,7 +239,8 @@ header {
 .schedule .mainContainer {
   width: 80%; }
 .schedule a {
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 .schedule #scheduleList article {
   padding-top: 30px; }
   .schedule #scheduleList article .mont12 {
@@ -328,6 +329,7 @@ header {
         color: black;
         font-weight: 400; }
   .grades .percentBox .percentAside {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-content: space-around; }
