@@ -20,6 +20,7 @@
     }
   }
   .coursesStart {
+    display: none;
     background-color: white;
     padding: 50px 0;
     text-align: center;
@@ -31,7 +32,6 @@
     }
   }
   .coursesBox {
-    display: none;
     background-color: white;
     padding: 25px;
     .flex1 {
@@ -67,6 +67,7 @@
     color: white;
     font-weight: bold;
     background-color: #37beba;
+    cursor: pointer;
   }
   .mont14 {
     color: $links;
@@ -87,6 +88,21 @@
       width: 50%;
       height: 100%;
       background-color: #359ca1;
+    }
+  }
+  .courseConContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .courseButtonCon {
+    margin-top: 30px;
+    width: 250px;
+    .helpButton {
+      cursor: pointer;
+      color: #50e3c2;
+      font-weight: bold;
+      text-align: center;
     }
   }
 }
