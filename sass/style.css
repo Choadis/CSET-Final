@@ -437,9 +437,9 @@ header {
     background-color: #359ca1; }
 
 .courses .ddSection {
-  display: none;
   overflow-y: scroll;
-  height: 60%; }
+  height: 60%;
+  width: 100%; }
   .courses .ddSection .mont18:first-child {
     color: #44ccc0;
     margin-bottom: 10px; }
@@ -462,6 +462,20 @@ header {
     .courses .ddSection .menuArea .divBar {
       margin-top: 20px;
       background-color: #44ccc0; }
+
+.courses #cisDD {
+  margin-bottom: 20px; }
+  .courses #cisDD .mont15 {
+    color: black; }
+  .courses #cisDD div {
+    display: block; }
+  .courses #cisDD .mont12 {
+    display: inline;
+    color: #48a2ba; }
+  .courses #cisDD .cisBox {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px; }
 
 .alert {
   top: 0;
