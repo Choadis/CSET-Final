@@ -473,7 +473,7 @@ header {
   background-color: grey;
   opacity: .6; }
 
-.help1 {
+.help1, .help2a {
   display: none;
   padding: 48px;
   width: 40%;
@@ -483,16 +483,16 @@ header {
   position: fixed;
   top: 32%;
   left: 30%; }
-  .help1 .mont14 {
+  .help1 .mont14, .help2a .mont14 {
     margin-left: 10px;
     display: inline-block;
     color: black;
     font-weight: 400; }
-  .help1 h1 {
+  .help1 h1, .help2a h1 {
     color: #33c7ba !important;
     font-weight: 700 !important;
     margin-left: 0 !important; }
-  .help1 input[type=submit] {
+  .help1 input[type=submit], .help2a input[type=submit] {
     border: 0;
     margin-top: 10px;
     background-color: #3bb9ba;
@@ -500,5 +500,24 @@ header {
     height: 42px;
     color: white;
     text-align: center; }
+
+.help2a .mont12 {
+  margin-left: 10px;
+  display: block;
+  color: #48a2ba;
+  font-weight: 700;
+  padding-bottom: 10px; }
+.help2a form {
+  margin-left: 10px; }
+  .help2a form select {
+    width: 60%;
+    height: 29px;
+    border-radius: 0px;
+    border: 1px solid #2e0a3a;
+    background-color: #d8d8d8; }
+.help2a input[type=submit] {
+  margin-top: 20px;
+  display: block;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

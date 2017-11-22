@@ -29,3 +29,28 @@
 		text-align: center;
 	}
 }
+.help2a {
+	@extend .help1;
+	.mont12 {
+		margin-left: 10px;
+		display: block;
+		color: $textBlue;
+		font-weight: 700;
+		padding-bottom: 10px;
+	}
+	form {
+		margin-left: 10px;
+		select {
+			width: 60%;
+			height: 29px;
+			border-radius: 0px;
+			border: 1px solid $headBlack;
+			background-color: #d8d8d8;
+		}
+	}
+	input[type=submit] {
+		margin-top: 20px;
+		display: block;
+		font-weight: 700;
+	}
+}
