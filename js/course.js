@@ -46,8 +46,11 @@ $(document).ready(() => {
     }
   })
   $('input[name=2c]').on('click', () =>{
-    $('.help2c').hide();
-    $('.help2d').show();
+      console.log($('textarea[name=text]').val());
+      if($('textarea[name=text]').val() != "") {
+        $('.help2c').hide();
+        $('.help2d').show();
+      }
   })
   $('input[name=stop]').on('click', () =>{
     $('#alert').removeClass('alert');
