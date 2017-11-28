@@ -378,6 +378,13 @@ header {
   width: 80%; }
 .courses a {
   text-decoration: none; }
+.courses .pathCon {
+  display: flex;
+  justify-content: space-between; }
+  .courses .pathCon .pathBox {
+    display: flex; }
+    .courses .pathCon .pathBox .mont13 {
+      margin: 0 5px; }
 .courses .flex {
   justify-content: space-between; }
   .courses .flex h1 {
@@ -603,5 +610,20 @@ header {
   .help2b input[type=button] {
     margin-top: 20px;
     font-weight: 700; }
+
+.logout {
+  height: 100vh; }
+  .logout .mainContainer {
+    background-color: white;
+    height: 85vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .logout .mont15 {
+    text-align: center;
+    color: #48a2ba;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

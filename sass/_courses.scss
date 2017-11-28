@@ -9,6 +9,16 @@
   a {
     text-decoration: none;
   }
+  .pathCon {
+    display: flex;
+    justify-content: space-between;
+    .pathBox {
+      display: flex;
+      .mont13 {
+        margin: 0 5px;
+      }
+    }
+  }
   .flex {
     justify-content: space-between;
     h1 {
