@@ -99,7 +99,8 @@ body {
 
 .pathCon {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: -10px; }
   .pathCon .pathBox {
     display: flex; }
     .pathCon .pathBox .mont13 {
@@ -153,7 +154,7 @@ body {
     color: #f7f7f7;
     margin-top: 30px;
     margin-bottom: 20px;
-    margin-left: -20px;
+    margin-left: -12px;
     padding: 5px 20px; }
   .sidebarContainer .mont11 {
     text-align: center;
