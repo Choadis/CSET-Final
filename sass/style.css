@@ -41,10 +41,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.invalid input[type=button] {
-  background-color: lightgrey !important;
-  color: black !important; }
-
 * {
   letter-spacing: .2; }
 
