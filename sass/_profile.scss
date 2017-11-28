@@ -1,0 +1,34 @@
+.profile {
+  .sidebarContainer {
+    width: 180px;
+    text-align: center;
+  }
+  .mainContainer {
+    width: 80%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .contactInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    .mont15 {
+      color: $lBlue;
+    }
+    #contactCarot {
+      cursor: pointer;
+    }
+  }
+  .advisors {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    .mont15 {
+      color: $lBlue;
+    }
+    #counselCarot {
+      cursor: pointer;
+    }
+  }
+}

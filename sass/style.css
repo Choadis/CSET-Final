@@ -150,11 +150,14 @@ body {
     margin: -150px 0 50px 0px;
     border-radius: 50%;
     border: 2px solid #50e3c2; }
-  .sidebarContainer .mont15 {
-    width: 100%;
-    color: #f7f7f7;
-    padding: 5px 0;
+  .sidebarContainer .profileBox {
     margin-top: -40px; }
+    .sidebarContainer .profileBox a:hover {
+      background-color: initial; }
+    .sidebarContainer .profileBox .mont15 {
+      width: 100%;
+      color: #f7f7f7;
+      padding: 5px 0; }
   .sidebarContainer .mont13 {
     text-align: left;
     width: 100%;
@@ -641,5 +644,29 @@ header {
     text-align: center;
     color: #48a2ba;
     font-weight: bold; }
+
+.profile .sidebarContainer {
+  width: 180px;
+  text-align: center; }
+.profile .mainContainer {
+  width: 80%; }
+.profile a {
+  text-decoration: none; }
+.profile .contactInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px; }
+  .profile .contactInfo .mont15 {
+    color: #59aac0; }
+  .profile .contactInfo #contactCarot {
+    cursor: pointer; }
+.profile .advisors {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px; }
+  .profile .advisors .mont15 {
+    color: #59aac0; }
+  .profile .advisors #counselCarot {
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

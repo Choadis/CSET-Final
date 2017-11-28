@@ -17,11 +17,16 @@
     border-radius: 50%;
     border: 2px solid #50e3c2;
   }
-  .mont15{
-    width: 100%;
-    color: $textWhite;
-    padding: 5px 0;
+  .profileBox {
     margin-top: -40px;
+    a:hover {
+      background-color: initial;
+    }
+    .mont15{
+      width: 100%;
+      color: $textWhite;
+      padding: 5px 0;
+    }
   }
   .mont13{
     text-align: left;
