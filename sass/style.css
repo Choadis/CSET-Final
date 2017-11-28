@@ -378,6 +378,13 @@ header {
   width: 80%; }
 .courses a {
   text-decoration: none; }
+.courses .pathCon {
+  display: flex;
+  justify-content: space-between; }
+  .courses .pathCon .pathBox {
+    display: flex; }
+    .courses .pathCon .pathBox .mont13 {
+      margin: 0 5px; }
 .courses .flex {
   justify-content: space-between; }
   .courses .flex h1 {
