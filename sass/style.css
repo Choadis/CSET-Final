@@ -44,6 +44,9 @@ table {
 * {
   letter-spacing: .2; }
 
+body {
+  overflow-y: hidden; }
+
 .mont8 {
   font-family: "Montserrat", sans-serif;
   font-size: 8px; }
