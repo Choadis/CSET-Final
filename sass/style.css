@@ -460,6 +460,9 @@ header {
     color: #50e3c2;
     font-weight: bold;
     text-align: center; }
+  .courses .courseButtonCon #nextButton {
+    margin-left: 30px;
+    color: #f7f7f7; }
 
 .courses .ddSection {
   overflow-y: scroll;
