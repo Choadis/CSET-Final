@@ -7,6 +7,7 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="js/jQuery.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/course.js"></script>
 </head>
 <body class="courses flex">
   <!-- The aside is for the fixed sidebar on all of the pages -->
@@ -93,12 +94,12 @@
       <h2 class="mont15"> Register for Spring courses.
       </h2>
       <div>
-        <a class="coursesButton mont15"> START
+        <a class="coursesButton mont15" id="startButton"> START
         </a>
       </div>
     </article>
     <!-- This is the first window to display after clicking the START button above. It's composed of headings, a progress bar, and course listings -->
-    <article class="coursesBox">
+    <article class="coursesBox none">
       <div class="flex">
       <h5 class="mont14"> Course Registration Completion:
       </h5>
@@ -158,9 +159,22 @@
           </h2>
         </div>
         </div>
+        <div class="courseConContainer">
+        <div class="courseButtonCon flex">
+          <div>
+            <a class="mont12 helpButton"> GET HELP &#187;
+            </a>
+          </div>
+          <div>
+            <a class="mont12 coursesButton" id="nextButton"> NEXT &#187;
+            </a>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
-    <article class="ddSection">
+  </article>
+    <article class="ddSection none">
       <div class="mont18"> Course Registration Completion </div>
       <div class="progressBar">
     </div>
@@ -168,11 +182,11 @@
       <div class="menuArea">
         <div>
       <div class="mont15"> Computer Information Systems </div>
-        <p> &#155;
+        <p id="cisCarot"> &#155;
         </p>
         <div class="divBar">
         </div>
-        <div id="cisDD">
+        <div id="cisDD" class="none">
           <div>
             <input type="radio"> <h5 class="mont12">CIS 105</h5>
             </input>
@@ -205,11 +219,11 @@
       <div>
       <div class="mont15"> English
       </div>
-        <p> &#155;
+        <p id="engCarot"> &#155;
         </p>
         <div class="divBar">
         </div>
-        <div id="engDD">
+        <div id="engDD" class="none">
           <div class="flex">
           <div class="engBoxOne">
           <div>
@@ -301,19 +315,6 @@
     </div>
     </article>
     <!-- This div will be used for the 'Next' and 'Get Help' buttons -->
-    <div class="courseConContainer">
-    <div class="courseButtonCon flex">
-      <div>
-        <a class="mont12 helpButton"> GET HELP &#187;
-        </a>
-      </div>
-      <div>
-        <a class="mont12 coursesButton"> NEXT &#187;
-        </a>
-      </div>
-    </div>
-    </article>
-  </div>
 </div>
 </section>
 <div class="help1">
