@@ -1,6 +1,9 @@
 *{
   letter-spacing: .2;
 }
+body{
+  overflow-y: hidden;
+}
 .mont8{
   font-family: $mont;
   font-size: 8px;
