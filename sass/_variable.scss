@@ -9,12 +9,6 @@ $sideBlue: #1b3c50;
 $highlight: #0b2535;
 $calendar: rgba(47, 207, 186, 0.15);
 $headBlack: #2e0a3a;
-.invalid {
-	input[type=button] {
-		background-color: lightgrey !important;
-		color: black !important;
-	}
-}
 @mixin gradient() {
 	background-color: #2fcfba;
 	background: linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
