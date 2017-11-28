@@ -652,6 +652,9 @@ header {
   width: 80%; }
 .profile a {
   text-decoration: none; }
+.profile .inline {
+  display: inline;
+  margin-right: 5px; }
 .profile .contactInfo {
   display: flex;
   justify-content: space-between;
@@ -660,13 +663,10 @@ header {
     color: #59aac0; }
   .profile .contactInfo #contactCarot {
     cursor: pointer; }
-.profile .advisors {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px; }
-  .profile .advisors .mont15 {
-    color: #59aac0; }
-  .profile .advisors #counselCarot {
+  .profile .contactInfo #counselCarot {
     cursor: pointer; }
+.profile .ddContent {
+  padding: 0 10px;
+  margin: 10px 0; }
 
 /*# sourceMappingURL=style.css.map */
