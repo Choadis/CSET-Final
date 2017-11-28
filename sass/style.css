@@ -109,6 +109,8 @@ body {
       color: initial; }
     .pathCon .pathBox .mont13 {
       margin: 0 5px; }
+    .pathCon .pathBox .pathsThree {
+      color: #52a5af; }
 
 .divBar {
   height: 2px;
