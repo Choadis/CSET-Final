@@ -333,7 +333,7 @@
       <input type="radio" name="step1" value="1"><p class="mont14">I’d like to change majors.</p><br>
       <input type="radio" name="step1"  value="2"><p class="mont14">My major courses are unavailable.</p><br>
       <input type="radio" name="step1"  value="3"><p class="mont14">Other issue.</p><br>
-      <input type="button" value="NEXT »">
+      <input type="button" name="1" value="NEXT »">
   </form>
 </div>
 <div class="help2a">
@@ -343,12 +343,12 @@
   <h5 class="mont12">New Program:</h1>
   <form>
     <select name="cars">
-      <option value="volvo"></option>
-      <option value="saab"></option>
-      <option value="fiat"></option>
-      <option value="audi"></option>
+      <option></option>
+      <option></option>
+      <option></option>
+      <option></option>
     </select>
-    <input type="button" value="SUBMIT">
+    <input type="button" name="stop" value="SUBMIT">
   </form>
 </div>
 <div class="help2b">
@@ -356,7 +356,7 @@
   <h2 class="mont14">Error: Major Courses are unavailable.</h2>
   <h2 class="mont14">Your response has been recorded. Support will be in touch via email.</h2>
   <form>
-    <input type="button" value="OKAY.">
+    <input type="button" name="stop" value="OKAY.">
   </form>
 </div>
 <div class="help2c">
@@ -365,7 +365,7 @@
   <h2 class="mont14">Please briefly describe the issue you are facing:</h2>
   <form>
     <input type="text">
-    <input type="button" value="SUBMIT">
+    <input type="button" name="2c" value="SUBMIT">
   </form>
 </div>
 <div class="help2d">
@@ -373,9 +373,9 @@
   <h2 class="mont14">Error: Other Issue</h2>
   <h2 class="mont14">Thank you! Your message has been submitted &amp; we will be in touch shortly. </h2>
   <form>
-    <input type="button" value="THANKS!">
+    <input type="button" name="stop" value="THANKS!">
   </form>
 </div>
-<div></div>
+<div id="alert"></div>
 </body>
 </html>
