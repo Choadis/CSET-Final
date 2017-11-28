@@ -8,6 +8,16 @@ body {
 		color: #50e3c2;
 	}
 }
+.pathCon {
+	display: flex;
+	justify-content: space-between;
+	.pathBox {
+		display: flex;
+		.mont13 {
+			margin: 0 5px;
+		}
+	}
+}
 .divBar{
 	height: 2px;
 	background-color: #6291a9;

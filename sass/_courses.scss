@@ -20,7 +20,6 @@
     }
   }
   .coursesStart {
-    display: none;
     background-color: white;
     padding: 50px 0;
     margin-top: 50px;
@@ -34,9 +33,9 @@
     }
   }
   .coursesBox {
-    display: block;
     background-color: white;
     padding: 25px;
+    width: 95%;
     .flex1 {
       display: flex;
       justify-content: space-around;
@@ -106,6 +105,10 @@
       color: #50e3c2;
       font-weight: bold;
       text-align: center;
+    }
+    #nextButton{
+      margin-left: 30px;
+      color: $textWhite;
     }
   }
 }

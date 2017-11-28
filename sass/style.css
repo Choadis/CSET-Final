@@ -97,6 +97,14 @@ body {
   body .textLink {
     color: #50e3c2; }
 
+.pathCon {
+  display: flex;
+  justify-content: space-between; }
+  .pathCon .pathBox {
+    display: flex; }
+    .pathCon .pathBox .mont13 {
+      margin: 0 5px; }
+
 .divBar {
   height: 2px;
   background-color: #6291a9;
@@ -386,7 +394,6 @@ header {
   .courses .flex p {
     color: #50e3c2; }
 .courses .coursesStart {
-  display: none;
   background-color: white;
   padding: 50px 0;
   margin-top: 50px;
@@ -397,9 +404,9 @@ header {
   .courses .coursesStart h2 {
     margin-bottom: 50px; }
 .courses .coursesBox {
-  display: block;
   background-color: white;
-  padding: 25px; }
+  padding: 25px;
+  width: 95%; }
   .courses .coursesBox .flex1 {
     display: flex;
     justify-content: space-around; }
@@ -454,9 +461,11 @@ header {
     color: #50e3c2;
     font-weight: bold;
     text-align: center; }
+  .courses .courseButtonCon #nextButton {
+    margin-left: 30px;
+    color: #f7f7f7; }
 
 .courses .ddSection {
-  display: none;
   overflow-y: scroll;
   height: 60%;
   width: 100%; }
@@ -485,8 +494,7 @@ header {
       background-color: #44ccc0; }
 
 .courses #cisDD {
-  margin-bottom: 20px;
-  display: none; }
+  margin-bottom: 20px; }
   .courses #cisDD .mont15 {
     color: black; }
   .courses #cisDD div {
@@ -606,5 +614,20 @@ header {
   .help2b input[type=button] {
     margin-top: 20px;
     font-weight: 700; }
+
+.logout {
+  height: 100vh; }
+  .logout .mainContainer {
+    background-color: white;
+    height: 85vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .logout .mont15 {
+    text-align: center;
+    color: #48a2ba;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
