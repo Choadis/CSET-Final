@@ -9,6 +9,9 @@
     background-color: $highlight;
     transition-duration: 1s;
   }
+  .highlighted{
+    background-color: $highlight;
+  }
   #profilePic{
     margin: -150px 0 50px 0px;
     border-radius: 50%;
@@ -29,7 +32,6 @@
     margin-bottom: 20px;
     margin-left: -20px;
     padding: 5px 20px;
-    // text-transform: uppercase;
   }
   .mont11{
     text-align: center;
