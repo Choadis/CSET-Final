@@ -91,7 +91,7 @@ body {
   background: -moz-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
   background: -o-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
   padding: 20px;
-  height: 100%;
+  height: 100vh;
   background-size: 100%;
   background-repeat: no-repeat; }
   body .textLink {
@@ -99,9 +99,14 @@ body {
 
 .pathCon {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: -10px; }
   .pathCon .pathBox {
     display: flex; }
+    .pathCon .pathBox a {
+      text-decoration: none; }
+    .pathCon .pathBox a:visited {
+      color: initial; }
     .pathCon .pathBox .mont13 {
       margin: 0 5px; }
 

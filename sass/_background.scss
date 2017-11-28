@@ -1,7 +1,7 @@
 body {
 	@include gradient();
 	padding: 20px;
-	height: 100%;
+	height: 100vh;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	.textLink {
@@ -11,8 +11,15 @@ body {
 .pathCon {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: -10px;
 	.pathBox {
 		display: flex;
+		a {
+			text-decoration: none;
+		}
+		a:visited {
+			color: initial;
+		}
 		.mont13 {
 			margin: 0 5px;
 		}
