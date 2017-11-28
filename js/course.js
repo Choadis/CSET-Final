@@ -19,6 +19,10 @@ $(document).ready(() => {
     $('#cisDD').addClass('none');
     $('#cisDD').css('display', 'none');
   });
+  $('#registerButton').on('click', () => {
+    $('.ddSection').addClass('none');
+    $('.registered').toggle('none');
+  });
   $('.helpButton').on('click', () =>{
     $('#alert').addClass('alert');
     $('.help1').show();

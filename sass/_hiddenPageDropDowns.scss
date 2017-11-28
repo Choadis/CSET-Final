@@ -35,5 +35,32 @@
       background-color: #44ccc0;
     }
   }
+  .coursesButton{
+    margin-top: 30px;
+    color: $textWhite;
+    float: right;
+  }
 }
+  .registered{
+    background-color: white;
+    height: 350px;
+    width: 100%;
+    overflow-y: hidden;
+    .mont18{
+      width: 100%;
+      margin-left: 33%;
+      margin-top: 50px;
+      margin-bottom: -30px;
+      color: $lBlue;
+      height: 45%;
+    }
+    .registeredButton{
+      padding: 15px 45px;
+      color: white;
+      margin-left: 40%;
+      font-weight: bold;
+      background-color: #37beba;
+      cursor: pointer;
+    }
+  }
 }
