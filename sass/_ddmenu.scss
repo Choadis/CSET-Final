@@ -20,18 +20,18 @@
   }
   #engDD{
     margin-bottom: 20px;
-    display: none;
+    // display: none;
     .mont15{
       color: black;
     }
+    .flex{
+      justify-content: space-between;
+    }
     .engBoxOne{
-      width: 49%;
+      width: 40%;
     }
     .engBoxTwo{
-      width: 49%;
-    }
-    div{
-      display: block;
+      width: 40%;
     }
     .mont12{
       display: inline;
