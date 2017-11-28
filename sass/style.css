@@ -524,7 +524,7 @@ header {
   background-color: grey;
   opacity: .6; }
 
-.help1, .help2a, .help2c {
+.help1, .help2a, .help2c, .help2d, .help2b {
   display: none;
   padding: 48px;
   width: 40%;
@@ -534,16 +534,16 @@ header {
   position: fixed;
   top: 32%;
   left: 30%; }
-  .help1 .mont14, .help2a .mont14, .help2c .mont14 {
+  .help1 .mont14, .help2a .mont14, .help2c .mont14, .help2d .mont14, .help2b .mont14 {
     margin-left: 10px;
     display: inline-block;
     color: black;
     font-weight: 400; }
-  .help1 h1, .help2a h1, .help2c h1 {
+  .help1 h1, .help2a h1, .help2c h1, .help2d h1, .help2b h1 {
     color: #33c7ba !important;
     font-weight: 700 !important;
     margin-left: 0 !important; }
-  .help1 input[type=submit], .help2a input[type=submit], .help2c input[type=submit] {
+  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button] {
     border: 0;
     margin-top: 10px;
     background-color: #3bb9ba;
@@ -568,14 +568,14 @@ header {
       border-radius: 0px;
       border: 1px solid #2e0a3a;
       background-color: #d8d8d8; }
-  .help2a input[type=submit] {
+  .help2a input[type=button] {
     margin-top: 20px;
     display: block;
     font-weight: 700; }
 
 .help2c {
   top: 20%;
-  display: block; }
+  display: none; }
   .help2c .mont14 {
     margin-left: 0;
     display: block; }
@@ -583,9 +583,27 @@ header {
     border: 0;
     width: 100%;
     height: 165px; }
-  .help2c input[type=submit] {
+  .help2c input[type=button] {
     margin-top: 20px;
     display: block;
+    font-weight: 700; }
+
+.help2d {
+  display: none; }
+  .help2d .mont14 {
+    margin-left: 0;
+    display: block; }
+  .help2d input[type=button] {
+    margin-top: 20px;
+    font-weight: 700; }
+
+.help2b {
+  display: none; }
+  .help2b .mont14 {
+    margin-left: 0;
+    display: block; }
+  .help2b input[type=button] {
+    margin-top: 20px;
     font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
