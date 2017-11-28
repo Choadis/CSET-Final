@@ -396,9 +396,9 @@ header {
   .courses .coursesStart h2 {
     margin-bottom: 50px; }
 .courses .coursesBox {
-  display: none;
   background-color: white;
-  padding: 25px; }
+  padding: 25px;
+  width: 95%; }
   .courses .coursesBox .flex1 {
     display: flex;
     justify-content: space-around; }
@@ -455,7 +455,6 @@ header {
     text-align: center; }
 
 .courses .ddSection {
-  display: none;
   overflow-y: scroll;
   height: 60%;
   width: 100%; }
@@ -484,8 +483,7 @@ header {
       background-color: #44ccc0; }
 
 .courses #cisDD {
-  margin-bottom: 20px;
-  display: none; }
+  margin-bottom: 20px; }
   .courses #cisDD .mont15 {
     color: black; }
   .courses #cisDD div {
