@@ -506,6 +506,29 @@ header {
     .courses .ddSection .menuArea .divBar {
       margin-top: 20px;
       background-color: #44ccc0; }
+  .courses .ddSection .coursesButton {
+    margin-top: 30px;
+    color: #f7f7f7;
+    float: right; }
+.courses .registered {
+  background-color: white;
+  height: 350px;
+  width: 100%;
+  overflow-y: hidden; }
+  .courses .registered .mont18 {
+    width: 100%;
+    margin-left: 33%;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    color: #59aac0;
+    height: 45%; }
+  .courses .registered .registeredButton {
+    padding: 15px 45px;
+    color: white;
+    margin-left: 40%;
+    font-weight: bold;
+    background-color: #37beba;
+    cursor: pointer; }
 
 .courses #cisDD {
   margin-bottom: 20px; }
