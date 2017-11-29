@@ -420,7 +420,7 @@ header {
 .courses .coursesBox {
   background-color: white;
   padding: 25px;
-  width: 95%; }
+  width: 93%; }
   .courses .coursesBox .flex1 {
     display: flex;
     justify-content: space-around; }
@@ -428,7 +428,8 @@ header {
     margin: 20px 0; }
 .courses .coursesList .flex {
   margin-bottom: 30px;
-  justify-content: initial; }
+  justify-content: initial;
+  width: 94%; }
 .courses .coursesList .coursesChunk {
   margin-top: 2px;
   margin-left: 10px; }
@@ -471,6 +472,7 @@ header {
   margin-top: 30px;
   width: 250px; }
   .courses .courseButtonCon .helpButton {
+    margin-left: -10px;
     cursor: pointer;
     color: #50e3c2;
     font-weight: bold;
@@ -482,12 +484,14 @@ header {
 .none {
   display: none; }
 
+.courses p {
+  color: #44ccc0; }
 .courses .ddSection {
   background-color: white;
   padding: 30px;
   overflow-y: scroll;
   height: 60%;
-  width: 94%; }
+  width: 90%; }
   .courses .ddSection .mont18:first-child {
     color: #44ccc0;
     margin-bottom: 10px; }
@@ -529,6 +533,12 @@ header {
     height: 100%;
     margin-top: 15%;
     margin-left: 20%; }
+  .courses .classList .flex {
+    margin-top: -65px; }
+  .courses .classList .mont18 {
+    color: #59aac0;
+    margin-left: 10%;
+    margin-top: 25px; }
   .courses .classList .mont12 {
     padding-bottom: 15px; }
     .courses .classList .mont12 em {
