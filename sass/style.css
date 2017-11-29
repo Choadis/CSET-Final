@@ -410,7 +410,6 @@ header {
 .courses .coursesStart {
   background-color: white;
   padding: 50px 0;
-  margin-top: 50px;
   width: 100%;
   text-align: center; }
   .courses .coursesStart h1 {
@@ -479,7 +478,8 @@ header {
     text-align: center; }
   .courses .courseButtonCon #nextButton {
     margin-left: 30px;
-    color: #f7f7f7; }
+    color: #f7f7f7;
+    cursor: pointer; }
 
 .none {
   display: none; }
@@ -522,7 +522,8 @@ header {
   .courses .ddSection .coursesButton {
     margin-top: 30px;
     color: #f7f7f7;
-    float: right; }
+    float: right;
+    cursor: pointer; }
 .courses .classList {
   background-color: white;
   height: 350px;
@@ -638,7 +639,8 @@ header {
     width: 114px;
     height: 42px;
     color: white;
-    text-align: center; }
+    text-align: center;
+    cursor: pointer; }
 
 .help2a {
   display: none; }
