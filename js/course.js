@@ -29,8 +29,13 @@ $(document).ready(() => {
   });
   $('#registerButton').on('click', () => {
     $('.ddSection').addClass('none');
+    $('.classList').toggle('none');
+  });
+  $('#okayButton').on('click', () => {
+    $('.classList').toggle('none');
     $('.registered').toggle('none');
   });
+
   $('.helpButton').on('click', () =>{
     $('#alert').addClass('alert');
     $('.help1').show();

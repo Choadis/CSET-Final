@@ -23,30 +23,58 @@
       cursor: pointer;
     }
     .progressBar{
-    background: linear-gradient(90deg, #33c7ba, #33c7ba 60%, lightgrey 60%, lightgrey 40%);
-    width: auto;
-    height: 5px;
-    margin-bottom: 10px;
-    border-radius: 10%;
+      background: linear-gradient(90deg, #33c7ba, #33c7ba 60%, lightgrey 60%, lightgrey 40%);
+      width: auto;
+      height: 5px;
+      margin-bottom: 10px;
+      border-radius: 10%;
     }
     .menuArea{
       margin: 20px;
-    p{
-      display: inline;
+      p{
+        display: inline;
+        float: right;
+        margin-top: -30px;
+      }
+      .divBar{
+        margin-top: 20px;
+        background-color: #44ccc0;
+      }
+    }
+    .coursesButton{
+      margin-top: 30px;
+      color: $textWhite;
       float: right;
-      margin-top: -30px;
-    }
-    .divBar{
-      margin-top: 20px;
-      background-color: #44ccc0;
     }
   }
-  .coursesButton{
-    margin-top: 30px;
-    color: $textWhite;
-    float: right;
+  .classList{
+    background-color: white;
+    height: 350px;
+    width: 100%;
+    overflow-y: hidden;
+    .classListFlex{
+      width: 45%;
+      height: 100%;
+      margin-top: 15%;
+      margin-left: 20%;
+    }
+    .mont12{
+      padding-bottom: 15px;
+      em{
+        color: black;
+      }
+    }
+    #okayButton{
+      padding: 15px 45px;
+      color: $textWhite;
+      float: right;
+      margin-top: 150%;
+      margin-right: 50px;
+      font-weight: bold;
+      background-color: #37beba;
+      cursor: pointer;
+    }
   }
-}
   .registered{
     background-color: white;
     height: 350px;
