@@ -1,8 +1,8 @@
 $(document).ready(() => {
-  $('#contactCarot').on('click', () => {
+  $('.contactCarot').on('click', () => {
     $('.ddMain').toggle('none');
   });
-  $('#counselCarot').on('click', () => {
+  $('.counselCarot').on('click', () => {
     $('.dConMain').toggle('none');
   });
 });

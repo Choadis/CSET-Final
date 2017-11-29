@@ -277,6 +277,8 @@ header {
   margin-top: 30px; }
   .schedule .calendarContainer .mont8 {
     padding-bottom: 5px; }
+  .schedule .calendarContainer .mont10 {
+    font-weight: normal; }
   .schedule .calendarContainer .day {
     margin-top: 10px; }
   .schedule .calendarContainer .calendarColumn {
@@ -494,6 +496,10 @@ header {
   .courses .ddSection .mont15 {
     margin-top: -5px;
     color: #44ccc0; }
+  .courses .ddSection .cisCarot {
+    cursor: pointer; }
+  .courses .ddSection .engCarot {
+    cursor: pointer; }
   .courses .ddSection .progressBar {
     background: linear-gradient(90deg, #33c7ba, #33c7ba 60%, lightgrey 60%, lightgrey 40%);
     width: auto;
@@ -687,9 +693,9 @@ header {
   padding: 10px; }
   .profile .contactInfo .mont15 {
     color: #59aac0; }
-  .profile .contactInfo #contactCarot {
+  .profile .contactInfo .contactCarot {
     cursor: pointer; }
-  .profile .contactInfo #counselCarot {
+  .profile .contactInfo .counselCarot {
     cursor: pointer; }
 .profile .ddContent {
   padding: 0 10px;
