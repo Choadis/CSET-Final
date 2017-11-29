@@ -4,9 +4,17 @@ $(document).ready(() => {
     $('.coursesBox').toggle('none');
   });
   $('#nextButton').on('click', () => {
+    var checked = [];
+      $.each($('input[name=major]:checked'), function() {            
+      checked.push($(this).val());
+      });
     if ($('input[name=major]:checked').val() != undefined) {
-      $('.coursesBox').toggle('none');
-      $('.ddSection').removeClass('none');
+      if (checked.length != 4) {
+        alert('You have not selected all your major courses!');
+      } else {
+        $('.coursesBox').toggle('none');
+        $('.ddSection').removeClass('none');
+      }
     }
   });
   $('.cisCarot').on('click', () => {
