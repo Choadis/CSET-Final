@@ -5,7 +5,7 @@ $(document).ready(() => {
   });
   $('#nextButton').on('click', () => {
     var checked = [];
-      $.each($('input[name=major]:checked'), function() {            
+      $('input[name=major]:checked').each( function() {            
       checked.push($(this).val());
       });
     if ($('input[name=major]:checked').val() != undefined) {
