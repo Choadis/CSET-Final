@@ -502,8 +502,12 @@ header {
     color: #44ccc0; }
   .courses .ddSection .cisCarot {
     cursor: pointer; }
+  .courses .ddSection .cisCarot:hover {
+    color: #59aac0; }
   .courses .ddSection .engCarot {
     cursor: pointer; }
+  .courses .ddSection .engCarot:hover {
+    color: #59aac0; }
   .courses .ddSection .progressBar {
     background: linear-gradient(90deg, #33c7ba, #33c7ba 60%, lightgrey 60%, lightgrey 40%);
     width: auto;
