@@ -289,7 +289,7 @@ header {
   .schedule .calendarContainer .calendarColumn {
     display: inline;
     width: 20%;
-    height: 375px;
+    height: 365px;
     border-right: 1px solid white; }
   .schedule .calendarContainer .calendarBlock1 {
     background-color: #1b3c50;
