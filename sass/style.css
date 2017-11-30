@@ -192,10 +192,6 @@ header {
     float: right;
     display: inline-block;
     color: #59aac0; }
-  header .paths {
-    vertical-align: top;
-    display: inline-block;
-    color: #1b3c50; }
   header h1 {
     color: #48a2ba;
     font-weight: 700; }
