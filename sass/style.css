@@ -112,6 +112,10 @@ body {
       color: initial; }
     .pathCon .pathBox .mont13 {
       margin: 0 5px; }
+    .pathCon .pathBox .pathsOne {
+      color: #1b3c50; }
+    .pathCon .pathBox .pathsTwo {
+      color: #0b2535; }
     .pathCon .pathBox .pathsThree {
       color: #52a5af; }
 
