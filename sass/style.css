@@ -112,6 +112,10 @@ body {
       color: initial; }
     .pathCon .pathBox .mont13 {
       margin: 0 5px; }
+    .pathCon .pathBox .pathsOne {
+      color: #1b3c50; }
+    .pathCon .pathBox .pathsTwo {
+      color: #0b2535; }
     .pathCon .pathBox .pathsThree {
       color: #52a5af; }
 
@@ -192,10 +196,6 @@ header {
     float: right;
     display: inline-block;
     color: #59aac0; }
-  header .paths {
-    vertical-align: top;
-    display: inline-block;
-    color: #1b3c50; }
   header h1 {
     color: #48a2ba;
     font-weight: 700; }
@@ -261,7 +261,13 @@ header {
   width: 80%; }
 .schedule a {
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 0 5px; }
+.schedule #scheduleList p {
+  margin: 0 5px; }
+.schedule #scheduleList a:hover {
+  color: #59aac0;
+  transition-duration: .5s; }
 .schedule #scheduleList article {
   padding-top: 30px; }
   .schedule #scheduleList article .mont12 {
@@ -362,7 +368,7 @@ header {
     .grades .percentBox .percentAside .mont12 {
       color: black;
       padding-top: 5px;
-      font-weight: 400; }
+      font-weight: lighter; }
 .grades .flexBox2 {
   padding-left: 10px;
   display: flex;
@@ -387,7 +393,7 @@ header {
   .grades table td {
     padding: 5px 50px 5px 0;
     color: #33c7ba !important;
-    font-weight: 400 !important; }
+    font-weight: lighter !important; }
   .grades table .tableRight {
     padding-right: 0; }
 .grades a {
