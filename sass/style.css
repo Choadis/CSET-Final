@@ -261,7 +261,13 @@ header {
   width: 80%; }
 .schedule a {
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 0 5px; }
+.schedule a:hover {
+  color: #59aac0;
+  transition-duration: .5s; }
+.schedule #scheduleList p {
+  margin: 0 5px; }
 .schedule #scheduleList article {
   padding-top: 30px; }
   .schedule #scheduleList article .mont12 {

@@ -9,8 +9,16 @@
   a {
     text-decoration: none;
     cursor: pointer;
+    margin: 0 5px;
+  }
+  a:hover {
+    color: $lBlue;
+    transition-duration: .5s;
   }
   #scheduleList {
+    p {
+      margin: 0 5px;
+    }
     article {
       padding-top: 30px;
       .mont12 {
