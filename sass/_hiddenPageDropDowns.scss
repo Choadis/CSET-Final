@@ -21,8 +21,14 @@
     .cisCarot {
       cursor: pointer;
     }
+    .cisCarot:hover {
+      color: $lBlue;
+    }
     .engCarot {
       cursor: pointer;
+    }
+    .engCarot:hover {
+      color: $lBlue;
     }
     .progressBar{
       background: linear-gradient(90deg, #33c7ba, #33c7ba 60%, lightgrey 60%, lightgrey 40%);
