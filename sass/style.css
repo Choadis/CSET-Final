@@ -94,7 +94,7 @@ body {
   background: -moz-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
   background: -o-linear-gradient(-45deg, #2fcfba 50%, #47a1ba);
   padding: 20px;
-  height: 100vh;
+  height: -webkit-fill-available;
   background-size: 100%;
   background-repeat: no-repeat; }
   body .textLink {
@@ -134,13 +134,15 @@ body {
 .mainContainer {
   background-color: #f7f7f7;
   display: block;
-  height: 630px;
+  height: auto;
+  width: 88%;
   padding: 20px;
+  padding-right: 30px;
   box-shadow: 3px 3px 5px #606060; }
 
 .sidebarContainer {
   width: 400px;
-  height: 250px;
+  height: auto;
   background-color: #1b3c50;
   padding: 210px 20px;
   position: inline;
