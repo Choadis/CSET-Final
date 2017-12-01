@@ -202,6 +202,10 @@ header {
     font-weight: 700;
     text-align: right;
     color: #1b3c50; }
+  header .logoutBox {
+    width: 150px;
+    display: flex;
+    justify-content: space-around; }
   header .logOut {
     float: right;
     display: inline-block;
@@ -769,9 +773,9 @@ header {
       float: right;
       margin-right: 175px; }
 
-.logout {
+.login {
   height: 100vh; }
-  .logout .mainContainer {
+  .login .mainContainer {
     background-color: white;
     height: 85vh;
     width: 60%;
@@ -779,32 +783,32 @@ header {
     display: flex;
     align-items: center;
     justify-content: center; }
-  .logout .mont15 {
+  .login .mont15 {
     text-align: center;
     color: #48a2ba;
     font-weight: bold; }
 
-.profile .sidebarContainer {
+.settings .sidebarContainer {
   width: 180px;
   text-align: center; }
-.profile .mainContainer {
+.settings .mainContainer {
   width: 80%; }
-.profile a {
+.settings a {
   text-decoration: none; }
-.profile .inline {
+.settings .inline {
   display: inline;
   margin-right: 5px; }
-.profile .contactInfo {
+.settings .contactInfo {
   display: flex;
   justify-content: space-between;
   padding: 10px; }
-  .profile .contactInfo .mont15 {
+  .settings .contactInfo .mont15 {
     color: #59aac0; }
-  .profile .contactInfo .contactCarot {
+  .settings .contactInfo .contactCarot {
     cursor: pointer; }
-  .profile .contactInfo .counselCarot {
+  .settings .contactInfo .counselCarot {
     cursor: pointer; }
-.profile .ddContent {
+.settings .ddContent {
   padding: 0 10px;
   margin: 10px 0; }
 
