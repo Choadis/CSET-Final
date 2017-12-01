@@ -14,11 +14,11 @@ header {
     width: 150px;
     display: flex;
     justify-content: space-around;
-  }
-  .logOut {
-    float: right;
-    display: inline-block;
-    color: $lBlue;
+    .logOut {
+      float: right;
+      display: inline-block;
+      color: $lBlue;
+    }
   }
   h1 {
     color: $textBlue;
