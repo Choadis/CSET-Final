@@ -39,15 +39,7 @@ $(document).ready(() => {
   $('.helpButton').on('click', () =>{
     $('#alert').addClass('alert');
     $('.help1').show();
-  })
-  $('#alert').on('click', () =>{
-    $('#alert').removeClass('alert');
-    $('.help1').hide();
-    $('.help2a').hide();
-    $('.help2b').hide();
-    $('.help2c').hide();
-    $('.help2d').hide();
-  })
+  });
   $('input[name=1]').on('click', () =>{
     if($('input[name=step1]:checked').val() === "1") {
       $('.help1').hide();
@@ -61,20 +53,15 @@ $(document).ready(() => {
       $('.help1').hide();
       $('.help2c').show();
     }
-  })
+  });
   $('input[name=2c]').on('click', () =>{
       console.log($('textarea[name=text]').val());
       if($('textarea[name=text]').val() != "") {
         $('.help2c').hide();
         $('.help2d').show();
       }
-  })
+  });
   $('input[name=stop]').on('click', () =>{
-    $('#alert').removeClass('alert');
-    $('.help1').hide();
-    $('.help2a').hide();
-    $('.help2b').hide();
-    $('.help2c').hide();
-    $('.help2d').hide();
+    remove()
   })
 });
