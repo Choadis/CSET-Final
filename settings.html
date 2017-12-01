@@ -7,7 +7,6 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="js/jQuery.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
-  <script type="text/javascript" src="js/profile.js"></script>
 </head>
 <body class="profile flex">
   <!-- The aside is for the fixed sidebar on all of the pages -->
@@ -18,8 +17,8 @@
     </div>
     <!-- Profile name follows here -->
     <div class="profileBox">
-      <a href="profile.html" class="mont15"> Zengar Zonvolt
-      </a>
+      <p class="mont15"> Zengar Zonvolt
+      </p>
     </div>
     <!-- Navigation links and directory follow here -->
     <div>
@@ -27,6 +26,8 @@
     </strong></a>
       <!-- First div contains working navs -->
       <div>
+        <a href="dashboard.html" class="mont11">  Academic Dashboard
+        </a>
       	<a href="schedule.html" class="mont11"> Current Schedule
        	</a>
         <a href="grades.html" class="mont11"> Grades &amp; Reporting
@@ -56,11 +57,18 @@
     <div class="pathCon">
     <!-- Placeholder for the paths -->
     <div class="pathBox">
-    <a class="mont13 pathsOne"> STUDENT PROFILE
-    </a>
+      <a href="landing.html" class="mont13 pathsOne"> HOME
+      </a>
+      <span class="mont13"> > </span>
+    <p class="mont13 pathsThree"> SETTINGS
+    </p>
   </div>
-    <!-- Logout to logout screen -->
+  <div class="logoutBox">
+    <a href="settings.html" class="mont10 logOut"> SETTINGS
+    </a>
+    <span class="mont10 logOut"> | </span>
     <a href="logout.html" class="mont10 logOut"> LOG OUT?</a>
+  </div>
   </div>
     <div class="divBar"></div>
     <!-- Current program section -->
@@ -80,65 +88,14 @@
     </div>
     <div class="divBar"></div>
 	</header>
-  <!-- Main content for home page -->
+  <!-- Main content for page -->
   <section class="scrollBackground">
-    <div>
-      <div class="contactInfo">
-      <h1 class="mont15 contactCarot"> Contact Information
-      </h1>
-      <h1 class="mont15 contactCarot"> >
-      </h1>
-    </div>
-    <div class="ddMain none">
-    <div class="ddContent">
-      <p class="inline mont13"> Full Name:
-      </p>
-      <p class="inline mont13"> Zengar Zonvolt
-      </p>
-    </div>
-    <div class="ddContent">
-      <p class="inline mont13"> Student Email:
-      </p>
-      <p class="inline mont13"> zzonvolt171@stevenscollege.edu
-      </p>
-    </div>
-    <div class="ddContent">
-      <p class="inline mont13"> Phone Number on File:
-      </p>
-      <p class="inline mont13"> (610) 867-5309
-      </p>
-    </div>
+    <!-- This div is the container for the settings info -->
+  <div>
   </div>
-      <div class="divBar">
-      </div>
-      <div class="contactInfo">
-        <h1 class="mont15 counselCarot"> Counselors &amp; Advisors
-        </h1>
-        <h1 class="mont15 counselCarot"> >
-      </div>
-      <div class="dConMain none">
-      <div class="ddContent">
-        <p class="inline mont13"> Current Couselor:
-        </p>
-        <p class="inline mont13"> Kai Kitamura
-        </p>
-      </div>
-      <div class="ddContent">
-        <p class="inline mont13"> Counselor Email:
-        </p>
-        <p class="inline mont13"> kkitamura@stevenscollege.edu
-        </p>
-      </div>
-      <div class="ddContent">
-        <p class="inline mont13"> Counselors Phone Number:
-        </p>
-        <p class="inline mont13"> (717) 845-0933
-        </p>
-      </div>
-    </div>
-      <div class="divBar">
-      </div>
-    </div>
+  <!-- This div is for the 'save' button -->
+  <div>
+  </div>
   </section>
 </div>
 </body>
