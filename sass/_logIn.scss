@@ -5,6 +5,7 @@
     height: auto;
     a{
       float: right;
+      text-decoration: none;
     }
     .divBar{
       width: 95%;
@@ -18,6 +19,11 @@
       margin-top: 100px;
       margin-bottom: 100px;
       margin-left: 25%;
+      ::-webkit-input-placeholder{
+        font-size: 16px;
+        font-family: $mont;
+        color: #3bb9ba;
+      }
       input{
         display: block;
         margin-top: 20px;
@@ -26,10 +32,7 @@
 	      height: 48px;
         background-color: #f7f7f7;
 	      border: solid 1px #3bb9ba;
-        font-size: 16px;
-        font-family: $mont;
         text-align: center;
-        color: #3bb9ba;
       }
       .mont24{
         font-weight: bold;

@@ -636,7 +636,7 @@ header {
   background-color: black;
   opacity: .6; }
 
-.help1, .help2a, .help2c, .help2d, .help2b {
+.help1, .help2a, .help2c, .help2d, .help2b, .logout {
   display: none;
   padding: 48px;
   width: 40%;
@@ -646,16 +646,16 @@ header {
   position: fixed;
   top: 32%;
   left: 30%; }
-  .help1 .mont14, .help2a .mont14, .help2c .mont14, .help2d .mont14, .help2b .mont14 {
+  .help1 .mont14, .help2a .mont14, .help2c .mont14, .help2d .mont14, .help2b .mont14, .logout .mont14 {
     margin-left: 10px;
     display: inline-block;
     color: black;
     font-weight: 400; }
-  .help1 h1, .help2a h1, .help2c h1, .help2d h1, .help2b h1 {
+  .help1 h1, .help2a h1, .help2c h1, .help2d h1, .help2b h1, .logout h1 {
     color: #33c7ba !important;
     font-weight: 700 !important;
     margin-left: 0 !important; }
-  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button] {
+  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button] {
     border: 0;
     margin-top: 10px;
     background-color: #3bb9ba;
@@ -725,7 +725,8 @@ header {
   width: 95%;
   height: auto; }
   .logInPage .mainContainer a {
-    float: right; }
+    float: right;
+    text-decoration: none; }
   .logInPage .mainContainer .divBar {
     width: 95%;
     height: 3px;
@@ -737,6 +738,10 @@ header {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 25%; }
+    .logInPage .mainContainer .logInBox ::-webkit-input-placeholder {
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif;
+      color: #3bb9ba; }
     .logInPage .mainContainer .logInBox input {
       display: block;
       margin-top: 20px;
@@ -745,10 +750,7 @@ header {
       height: 48px;
       background-color: #f7f7f7;
       border: solid 1px #3bb9ba;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif;
-      text-align: center;
-      color: #3bb9ba; }
+      text-align: center; }
     .logInPage .mainContainer .logInBox .mont24 {
       font-weight: bold;
       padding-top: 50px;
@@ -773,6 +775,43 @@ header {
       float: right;
       margin-right: 175px; }
 
+.login {
+  height: 100vh; }
+  .login .mainContainer {
+    background-color: white;
+    height: 85vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .login .mont15 {
+    text-align: center;
+    color: #48a2ba;
+    font-weight: bold; }
+.logout {
+  display: none; }
+  .logout .mont14 {
+    margin-left: 0;
+    display: block;
+    padding-bottom: 20px; }
+  .logout .logoutButton {
+    display: inline-block;
+    background-color: #3bb9ba;
+    width: 114px;
+    height: 42px; }
+    .logout .logoutButton .mont12 {
+      display: block;
+      text-align: center;
+      line-height: 42px;
+      color: white;
+      height: 100%;
+      width: 100%; }
+  .logout .return {
+    cursor: pointer;
+    display: inline-block;
+    color: #3bb9ba;
+    margin-left: 20px; }
 .settings .sidebarContainer {
   width: 180px;
   text-align: center; }
@@ -783,5 +822,20 @@ header {
 .settings .inline {
   display: inline;
   margin-right: 5px; }
+
+.settings .contactInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px; }
+  .settings .contactInfo .mont15 {
+    color: #59aac0; }
+  .settings .contactInfo .contactCarot {
+    cursor: pointer; }
+  .settings .contactInfo .counselCarot {
+    cursor: pointer; }
+.settings .ddContent {
+  padding: 0 10px;
+  margin: 10px 0; }
+
 
 /*# sourceMappingURL=style.css.map */
