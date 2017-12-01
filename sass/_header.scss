@@ -10,6 +10,11 @@ header {
     text-align: right;
     color: $sideBlue;
   }
+  .logoutBox {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+  }
   .logOut {
     float: right;
     display: inline-block;
