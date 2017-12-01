@@ -202,6 +202,10 @@ header {
     font-weight: 700;
     text-align: right;
     color: #1b3c50; }
+  header .logoutBox {
+    width: 150px;
+    display: flex;
+    justify-content: space-around; }
   header .logOut {
     cursor: pointer;
     float: right;
@@ -722,7 +726,8 @@ header {
   width: 95%;
   height: auto; }
   .logInPage .mainContainer a {
-    float: right; }
+    float: right;
+    text-decoration: none; }
   .logInPage .mainContainer .divBar {
     width: 95%;
     height: 3px;
@@ -734,6 +739,10 @@ header {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 25%; }
+    .logInPage .mainContainer .logInBox ::-webkit-input-placeholder {
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif;
+      color: #3bb9ba; }
     .logInPage .mainContainer .logInBox input {
       display: block;
       margin-top: 20px;
@@ -742,10 +751,7 @@ header {
       height: 48px;
       background-color: #f7f7f7;
       border: solid 1px #3bb9ba;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif;
-      text-align: center;
-      color: #3bb9ba; }
+      text-align: center; }
     .logInPage .mainContainer .logInBox .mont24 {
       font-weight: bold;
       padding-top: 50px;
@@ -784,7 +790,6 @@ header {
     text-align: center;
     color: #48a2ba;
     font-weight: bold; }
-
 .logout {
   display: none; }
   .logout .mont14 {
@@ -808,28 +813,26 @@ header {
     display: inline-block;
     color: #3bb9ba;
     margin-left: 20px; }
-
-.profile .sidebarContainer {
   width: 180px;
   text-align: center; }
-.profile .mainContainer {
+.settings .mainContainer {
   width: 80%; }
-.profile a {
+.settings a {
   text-decoration: none; }
-.profile .inline {
+.settings .inline {
   display: inline;
   margin-right: 5px; }
-.profile .contactInfo {
+.settings .contactInfo {
   display: flex;
   justify-content: space-between;
   padding: 10px; }
-  .profile .contactInfo .mont15 {
+  .settings .contactInfo .mont15 {
     color: #59aac0; }
-  .profile .contactInfo .contactCarot {
+  .settings .contactInfo .contactCarot {
     cursor: pointer; }
-  .profile .contactInfo .counselCarot {
+  .settings .contactInfo .counselCarot {
     cursor: pointer; }
-.profile .ddContent {
+.settings .ddContent {
   padding: 0 10px;
   margin: 10px 0; }
 
