@@ -13,22 +13,4 @@
     display: inline;
     margin-right: 5px;
   }
-  .contactInfo {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    .mont15 {
-      color: $lBlue;
-    }
-    .contactCarot {
-      cursor: pointer;
-    }
-    .counselCarot {
-      cursor: pointer;
-    }
-  }
-  .ddContent {
-    padding: 0 10px;
-    margin: 10px 0;
-  }
 }

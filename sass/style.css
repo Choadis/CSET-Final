@@ -206,11 +206,10 @@ header {
     width: 150px;
     display: flex;
     justify-content: space-around; }
-  header .logOut {
-    cursor: pointer;
-    float: right;
-    display: inline-block;
-    color: #59aac0; }
+    header .logoutBox .logOut {
+      float: right;
+      display: inline-block;
+      color: #59aac0; }
   header h1 {
     color: #48a2ba;
     font-weight: 700; }
@@ -813,6 +812,7 @@ header {
     display: inline-block;
     color: #3bb9ba;
     margin-left: 20px; }
+.settings .sidebarContainer {
   width: 180px;
   text-align: center; }
 .settings .mainContainer {
@@ -822,6 +822,7 @@ header {
 .settings .inline {
   display: inline;
   margin-right: 5px; }
+
 .settings .contactInfo {
   display: flex;
   justify-content: space-between;
@@ -835,5 +836,6 @@ header {
 .settings .ddContent {
   padding: 0 10px;
   margin: 10px 0; }
+
 
 /*# sourceMappingURL=style.css.map */
