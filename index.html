@@ -2,132 +2,32 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title> Index </title>
+  <title> Log In </title>
   <link rel="stylesheet" href="sass/style.css"> <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700%7CRoboto+Slab" rel="stylesheet">
   <meta name=viewport content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="js/jQuery.min.js"></script>
+<script type="text/javascript" src="js/jQuery.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </head>
-<body class="index flex">
-  <!-- The aside is for the fixed sidebar on all of the pages -->
-  <aside class="sidebarContainer">
-    <!-- The profile image follows belows -->
-    <div>
-      <img src="image/zengar.jpeg" height="100px" width="100px" id="profilePic">
-    </div>
-    <!-- Profile name follows here -->
-    <div class="profileBox">
-      <a href="profile.html" class="mont15"> Zengar Zonvolt
-      </a>
-    </div>
-    <!-- Navigation links and directory follow here -->
-    <div>
-    <a href="index.html" class="mont13 highlighted" clas><strong> Academic Services
-    </strong></a>
-      <!-- First div contains working navs -->
-      <div>
-      	<a href="schedule.html" class="mont11"> Current Schedule
-       	</a>
-        <a href="grades.html" class="mont11"> Grades &amp; Reporting
-        </a>
-        <a href="courses.html" class="mont11"> Upcoming Courses
-        </a>
-      </div>
-      <!-- Second div contains nonfunctional navs -->
-      <div class="mont13"><strong> College Information
-      </strong></div>
-      <div>
-        <a class="mont11">	College Calendar
-        </a>
-        <a class="mont11"> Financial Aid
-        </a>
-        <a class="mont11"> Student Services
-        </a>
-      </div>
-    </div>
-  </aside>
-  <!-- Header on each page -->
-  <div class="mainContainer">
-	<header class="headerContainer">
-    <!-- Placeholder for the date -->
-		<a class="mont10 date">Placeholder
-		</a>
-    <div class="pathCon">
-    <!-- Placeholder for the paths -->
-    <div class="pathBox">
-    <a href="index.html" class="mont13 pathsOne"> HOME
+<body class="logInPage">
+  <section class="mainContainer">
+    <a class="mont10 date">Placeholder
     </a>
-  </div>
-    <!-- Logout to logout screen -->
-    <a href="logout.html" class="mont10 logOut">LOG OUT?</a>
-  </div>
-    <div class="divBar"></div>
-    <!-- Current program section -->
-    <h1 class="mont12">CURRENT PROGRAM:</h1>
-    <h2 class="mont15">Computer Software Engineering Technology</h2>
-    <div class="headerDiv">
-      <h3 class="mont12">CURRENT SEMESTER:</h3>
-      <h2 class="mont15">Fall 2017</h2>
+    <div class="divBar">
     </div>
-    <div class="headerDiv">
-      <h3 class="mont12">ENROLLED CREDIT HOURS:</h3>
-      <h2 class="mont15">15</h2>
+    <div class="logInBox">
+      <p class="mont24"> Thaddeus Stevens College of Technology
+      </p>
+      <p class="mont21"> Student Portal </p>
+      <form>
+        <input type="text" value="E-mail Address">
+        <input type="text" value="Password">
+        <div>
+          <a class="mont12 coursesButton" id="logInButton" disabled> Submit
+          </a>
+        </div>
+        <p class="mont12 passLink"> Forgot Password? </p>
+      </form>
     </div>
-    <div class="headerDiv">
-      <h3 class="mont12">ACADEMIC STANDING:</h3>
-      <h2 class="mont15">Good</h2>
-    </div>
-    <div class="divBar"></div>
-	</header>
-  <!-- Main content for home page -->
-  <section class="scrollBackground">
-    <!-- Article tags are the articles on the left hand side -->
-    <section class="flex">
-    <article class="flexBox">
-      	<h1 class="mont12">PROGRAM ANNOUNCEMENTS:</h1>
-      	<h2 class="mont15">Industry Panel: Friday, 1pm</h2>
-      	<p class="robo13">Students should arrive to the auditorium by 12:45pm, with questions prepared to ask the panel.
-      	</p>
-    </article>
-    <!-- Aside tage are the dates on the right hand side -->
-    <aside class="flexBox2">
-      	<h1 class="mont12">Upcoming Due Dates:</h1>
-      	<h1 class="mont12">11/15</h1>
-      	<h2 class="mont15">Web Development I: JavaScript Fundamentals Test</h2>
-      	<h1 class="mont12">12/15</h1>
-      	<h2 class="mont15">Software Project I: Final Project due by 11:55pm EST</h2>
-    </aside>
   </section>
-    <div class="divBar"></div>
-    <div class="flex">
-    <article class="flexBox">
-      	<h1 class="mont12">COLLEGE ANNOUNCEMENTS:</h1>
-      	<h2 class="mont15">Tutoring Available</h2>
-      	<p class="robo13">Students may request free tutoring support in general education and program related courses at the Student Academic Center. Email <a class="textLink" href="mailto:tutoring@stevenscollege.edu">tutoring@stevenscollege.edu</a> to reserve a timeslot.
-      	</p>
-      	<h2 class="mont15">Internship Workshops </h2>
-      	<p class="robo13">Learn how to register for &amp; utilize our college central netowrk to connect with job and internship opportunities. We’ll also provide you resources to connect with companies in your hometown for summer internships. RSVP by emailing <a class="textLink" href="mailto:internships@stevenscollege.edu">internships@stevenscollege.edu.</a>.
-      	</p>
-    </article>
-    <aside class="flexBox2">
-    	<h1 class="mont12">Upcoming Events:</h1>
-      	<h1 class="mont12">11/15, 3:00pm</h1>
-      	<h2 class="mont15">Math Study Group</h2>
-      	<h1 class="mont12">11/15, 7:00pm</h1>
-      	<h2 class="mont15">Intramural Dodgeball</h2>
-      	<h1 class="mont12">11/15, 9:00pm</h1>
-      	<h2 class="mont15">Movie Night</h2>
-      	<h1 class="mont12">11/16, 8:00am</h1>
-      	<h2 class="mont15">Coffee Talk</h2>
-      	<h1 class="mont12">11/15, 7:00pm</h1>
-      	<h2 class="mont15">Intramural Dodgeball</h2>
-      	<h1 class="mont12">11/15, 9:00pm</h1>
-      	<h2 class="mont15">Coffee Talk</h2>
-    </aside>
-  </div>
-  </section>
-</div>
-</div>
-<div></div>
 </body>
 </html>
