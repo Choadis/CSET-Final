@@ -1,0 +1,64 @@
+.logInPage{
+  .mainContainer{
+    background-color: #f7f7f7;
+    width: 95%;
+    height: auto;
+    a{
+      float: right;
+    }
+    .divBar{
+      width: 95%;
+      height: 3px;
+      background-color: #6291a9;
+    }
+    .logInBox{
+      background-color: white;
+      height: 400px;
+      width: 600px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 25%;
+      input{
+        display: block;
+        margin-top: 20px;
+        margin-left: 125px;
+        width: 350px;
+	      height: 48px;
+        background-color: #f7f7f7;
+	      border: solid 1px #3bb9ba;
+        font-size: 16px;
+        font-family: $mont;
+        text-align: center;
+        color: #3bb9ba;
+      }
+      .mont24{
+        font-weight: bold;
+        padding-top: 50px;
+        margin-left: 45px;
+      }
+      .mont21{
+        color: #3bb9ba;
+        margin-top: 25px;
+        margin-left: 225px;
+      }
+      .coursesButton{
+        background-color: #3bb9ba;
+        float: left;
+        text-align: center;
+        color: #f7f7f7;
+        margin-left: 150px;
+        margin-top: 30px;
+      }
+      .mont12{
+        padding: 15px 40px;
+      }
+      .passLink{
+        color: #3bb9ba;
+        padding: 0;
+        margin-top: 45px;
+        float: right;
+        margin-right: 175px;
+      }
+    }
+  }
+}
