@@ -725,7 +725,8 @@ header {
   width: 95%;
   height: auto; }
   .logInPage .mainContainer a {
-    float: right; }
+    float: right;
+    text-decoration: none; }
   .logInPage .mainContainer .divBar {
     width: 95%;
     height: 3px;
@@ -737,6 +738,10 @@ header {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 25%; }
+    .logInPage .mainContainer .logInBox ::-webkit-input-placeholder {
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif;
+      color: #3bb9ba; }
     .logInPage .mainContainer .logInBox input {
       display: block;
       margin-top: 20px;
@@ -745,10 +750,7 @@ header {
       height: 48px;
       background-color: #f7f7f7;
       border: solid 1px #3bb9ba;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif;
-      text-align: center;
-      color: #3bb9ba; }
+      text-align: center; }
     .logInPage .mainContainer .logInBox .mont24 {
       font-weight: bold;
       padding-top: 50px;
