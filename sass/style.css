@@ -720,6 +720,46 @@ header {
     margin-top: 20px;
     font-weight: 700; }
 
+.login {
+  height: 100vh; }
+  .login .mainContainer {
+    background-color: white;
+    height: 85vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .login .mont15 {
+    text-align: center;
+    color: #48a2ba;
+    font-weight: bold; }
+
+.logout {
+  display: none; }
+  .logout .mont14 {
+    margin-left: 0;
+    display: block;
+    padding-bottom: 20px; }
+  .logout .logoutButton {
+    display: inline-block;
+    background-color: #3bb9ba;
+    width: 114px;
+    height: 42px; }
+    .logout .logoutButton .mont12 {
+      display: block;
+      text-align: center;
+      line-height: 42px;
+      color: white;
+      height: 100%;
+      width: 100%; }
+
+.return {
+  cursor: pointer;
+  display: inline-block;
+  color: #3bb9ba;
+  margin-left: 20px; }
+
 .logInPage .mainContainer {
   background-color: #f7f7f7;
   width: 95%;
@@ -775,43 +815,6 @@ header {
       float: right;
       margin-right: 175px; }
 
-.login {
-  height: 100vh; }
-  .login .mainContainer {
-    background-color: white;
-    height: 85vh;
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .login .mont15 {
-    text-align: center;
-    color: #48a2ba;
-    font-weight: bold; }
-.logout {
-  display: none; }
-  .logout .mont14 {
-    margin-left: 0;
-    display: block;
-    padding-bottom: 20px; }
-  .logout .logoutButton {
-    display: inline-block;
-    background-color: #3bb9ba;
-    width: 114px;
-    height: 42px; }
-    .logout .logoutButton .mont12 {
-      display: block;
-      text-align: center;
-      line-height: 42px;
-      color: white;
-      height: 100%;
-      width: 100%; }
-  .logout .return {
-    cursor: pointer;
-    display: inline-block;
-    color: #3bb9ba;
-    margin-left: 20px; }
 .settings .sidebarContainer {
   width: 180px;
   text-align: center; }
@@ -822,20 +825,5 @@ header {
 .settings .inline {
   display: inline;
   margin-right: 5px; }
-
-.settings .contactInfo {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px; }
-  .settings .contactInfo .mont15 {
-    color: #59aac0; }
-  .settings .contactInfo .contactCarot {
-    cursor: pointer; }
-  .settings .contactInfo .counselCarot {
-    cursor: pointer; }
-.settings .ddContent {
-  padding: 0 10px;
-  margin: 10px 0; }
-
 
 /*# sourceMappingURL=style.css.map */
