@@ -6,7 +6,7 @@ $(document).ready(() => {
   $('#submitEmail').on('click', () =>{
     var email = $('#email').val();
     var verify = $('#verify').val();
-    if (email === verify && email.slice(-19) === '@stevenscollege.edu'){
+    if (email === verify && email.length > 1){
     $('.enterNewEmail').hide();
     $('.emailPopUp').show();
     $('#altEmail').text(verify);
