@@ -11,4 +11,8 @@ $(document).ready(() => {
     alert('Incorrect Email address or password');
   };
 })
+  $('.passLink').on('click', () =>{
+    $('#alert').addClass('alert');
+    $('.forgot').show();
+  })
 })
