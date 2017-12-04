@@ -1,0 +1,58 @@
+.dashboard {
+  .sidebarContainer {
+    width: 180px;
+    text-align: center;
+  }
+  .mainContainer {
+    width: 80%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .scrollBackground {
+    .mont12 {
+      font-weight: bold;
+      color: #2e0a3a;
+    }
+    .mont13 {
+      font-weight: bold;
+      color: #48a2ba;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .dashProgCon {
+      display: inline-block;
+      width: 70%;
+      .dashProg {
+        display: inline-block;
+        width: 40%;
+        background-color: white;
+        text-align: center;
+      }
+    }
+    .dashLinkCon {
+      width: 100%;
+      text-align: right;
+      .dashLink {
+        @extend .mont12;
+        font-weight: bold;
+      }
+    }
+    .dashClassCon {
+      display: block;
+      width: 30%;
+      .dashClass {
+        margin-bottom: 30px;
+      }
+    }
+    .dashDue {
+      margin-bottom: 100px;
+      h4 {
+        font-family: $mont;
+        font-size: 12px;
+        font-weight: bold;
+        color: #59aac0;
+      }
+    }
+  }
+}

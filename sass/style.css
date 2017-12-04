@@ -59,7 +59,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 11px; }
 
-.mont12 {
+.mont12, .dashboard .scrollBackground .dashLinkCon .dashLink {
   font-family: "Montserrat", sans-serif;
   font-size: 12px; }
 
@@ -229,7 +229,7 @@ header {
   overflow-y: scroll;
   margin-right: -13px;
   padding-right: 7px; }
-  .scrollBackground .mont12 {
+  .scrollBackground .mont12, .dashboard .scrollBackground .dashLinkCon .dashLink {
     color: #48a2ba;
     margin-bottom: 15px;
     font-weight: bold; }
@@ -285,7 +285,7 @@ header {
   transition-duration: .5s; }
 .schedule #scheduleList article {
   padding-top: 30px; }
-  .schedule #scheduleList article .mont12 {
+  .schedule #scheduleList article .mont12, .schedule #scheduleList article .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .schedule #scheduleList article .dashLink {
     color: #2e0a3a; }
 .schedule .calendarContainer {
   background-color: rgba(47, 207, 186, 0.15);
@@ -369,7 +369,7 @@ header {
       background-color: white; }
       .grades .percentBox .circle div .mont30 {
         color: #59aac0; }
-      .grades .percentBox .circle div .mont12 {
+      .grades .percentBox .circle div .mont12, .grades .percentBox .circle div .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .grades .percentBox .circle div .dashLink {
         color: black;
         font-weight: 400; }
   .grades .percentBox .percentAside {
@@ -380,7 +380,7 @@ header {
     .grades .percentBox .percentAside .mont10 {
       color: #59aac0;
       font-weight: 700; }
-    .grades .percentBox .percentAside .mont12 {
+    .grades .percentBox .percentAside .mont12, .grades .percentBox .percentAside .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .grades .percentBox .percentAside .dashLink {
       color: black;
       padding-top: 5px;
       font-weight: lighter; }
@@ -453,7 +453,7 @@ header {
 .courses .coursesList .coursesChunk {
   margin-top: 2px;
   margin-left: 10px; }
-.courses .coursesList .mont12 {
+.courses .coursesList .mont12, .courses .coursesList .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .courses .coursesList .dashLink {
   color: #48a2ba;
   text-align: left;
   margin-bottom: 10px; }
@@ -564,9 +564,9 @@ header {
     color: #59aac0;
     margin-left: 10%;
     margin-top: 25px; }
-  .courses .classList .mont12 {
+  .courses .classList .mont12, .courses .classList .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .courses .classList .dashLink {
     padding-bottom: 15px; }
-    .courses .classList .mont12 em {
+    .courses .classList .mont12 em, .courses .classList .dashboard .scrollBackground .dashLinkCon .dashLink em, .dashboard .scrollBackground .dashLinkCon .courses .classList .dashLink em {
       color: black; }
   .courses .classList #okayButton {
     padding: 15px 45px;
@@ -603,7 +603,7 @@ header {
     color: black; }
   .courses #cisDD div {
     display: block; }
-  .courses #cisDD .mont12 {
+  .courses #cisDD .mont12, .courses #cisDD .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .courses #cisDD .dashLink {
     display: inline;
     color: #48a2ba; }
   .courses #cisDD .cisBox {
@@ -620,7 +620,7 @@ header {
     width: 40%; }
   .courses #engDD .engBoxTwo {
     width: 40%; }
-  .courses #engDD .mont12 {
+  .courses #engDD .mont12, .courses #engDD .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .courses #engDD .dashLink {
     display: inline;
     color: #48a2ba; }
   .courses #engDD .cisBox {
@@ -668,7 +668,7 @@ header {
 
 .help2a {
   display: none; }
-  .help2a .mont12 {
+  .help2a .mont12, .help2a .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .help2a .dashLink {
     margin-left: 10px;
     display: block;
     color: #48a2ba;
@@ -747,7 +747,7 @@ header {
     background-color: #3bb9ba;
     width: 114px;
     height: 42px; }
-    .logout .logoutButton .mont12 {
+    .logout .logoutButton .mont12, .logout .logoutButton .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .logout .logoutButton .dashLink {
       display: block;
       text-align: center;
       line-height: 42px;
@@ -807,7 +807,7 @@ header {
       color: #f7f7f7;
       margin-left: 150px;
       margin-top: 30px; }
-    .logInPage .mainContainer .logInBox .mont12 {
+    .logInPage .mainContainer .logInBox .mont12, .logInPage .mainContainer .logInBox .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .logInPage .mainContainer .logInBox .dashLink {
       padding: 15px 40px; }
     .logInPage .mainContainer .logInBox .passLink {
       cursor: pointer;
@@ -927,7 +927,7 @@ header {
   margin-bottom: -120px; }
 .settings .scrollBackground {
   width: 100%; }
-  .settings .scrollBackground .mont12 {
+  .settings .scrollBackground .mont12, .settings .dashboard .scrollBackground .dashLinkCon .dashLink, .dashboard .settings .scrollBackground .dashLinkCon .dashLink {
     font-weight: bold;
     color: #2e0a3a; }
   .settings .scrollBackground .flex {
@@ -988,5 +988,46 @@ header {
   color: #f7f7f7;
   margin-top: 20px;
   float: right; }
+
+.dashboard .sidebarContainer {
+  width: 180px;
+  text-align: center; }
+.dashboard .mainContainer {
+  width: 80%; }
+.dashboard a {
+  text-decoration: none; }
+.dashboard .scrollBackground .mont12, .dashboard .scrollBackground .dashLinkCon .dashLink {
+  font-weight: bold;
+  color: #2e0a3a; }
+.dashboard .scrollBackground .mont13 {
+  font-weight: bold;
+  color: #48a2ba;
+  margin-bottom: 20px;
+  text-align: left; }
+.dashboard .scrollBackground .dashProgCon {
+  display: inline-block;
+  width: 70%; }
+  .dashboard .scrollBackground .dashProgCon .dashProg {
+    display: inline-block;
+    width: 40%;
+    background-color: white;
+    text-align: center; }
+.dashboard .scrollBackground .dashLinkCon {
+  width: 100%;
+  text-align: right; }
+  .dashboard .scrollBackground .dashLinkCon .dashLink {
+    font-weight: bold; }
+.dashboard .scrollBackground .dashClassCon {
+  display: block;
+  width: 30%; }
+  .dashboard .scrollBackground .dashClassCon .dashClass {
+    margin-bottom: 30px; }
+.dashboard .scrollBackground .dashDue {
+  margin-bottom: 100px; }
+  .dashboard .scrollBackground .dashDue h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #59aac0; }
 
 /*# sourceMappingURL=style.css.map */
