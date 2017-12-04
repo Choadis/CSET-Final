@@ -15,4 +15,7 @@ $(document).ready(() => {
     $('#alert').addClass('alert');
     $('.forgot').show();
   })
+  $('.forget2').on('click', () =>{
+    $('.forgot').show();
+  })
 })
