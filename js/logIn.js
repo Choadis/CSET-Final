@@ -7,8 +7,8 @@ $(document).ready(() => {
     window.location.href = 'landing.html'
   };
     if (check != '@stevenscollege.edu' || password.length < 1){
-    $('#emailForm').effect('shake')
-    alert('Incorrect Email address or password');
+    $('input[type=text]').effect('shake')
+    $('input[type=password]').effect('shake')
   };
 })
   $('.passLink').on('click', () =>{
