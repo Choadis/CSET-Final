@@ -23,4 +23,5 @@ function remove() {
     $('.help2d').hide();
     $('.logout').hide();
     $('.forgot').hide();
+    $('.emailPopUp').hide();
 };
