@@ -27,4 +27,5 @@ function remove() {
     $('.forgot3').hide();
     $('.forgot4').hide();
     $('.emailPopUp').hide();
+    $('.enterNewEmail').hide();
 };

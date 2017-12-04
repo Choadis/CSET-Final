@@ -11,6 +11,7 @@ $(document).ready(() => {
     $('.emailPopUp').show();
     $('#altEmail').text(verify);
   } else {
+    $('input[type=text]').effect('shake')
     $('.text1').show();
   }
   })
