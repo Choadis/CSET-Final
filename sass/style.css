@@ -825,5 +825,32 @@ header {
 .settings .inline {
   display: inline;
   margin-right: 5px; }
+.settings .headerContainer {
+  margin-bottom: -120px; }
+.settings .scrollBackground {
+  width: 100%; }
+  .settings .scrollBackground .mont12 {
+    font-weight: bold;
+    color: #2e0a3a; }
+  .settings .scrollBackground .flex {
+    justify-content: space-between; }
+    .settings .scrollBackground .flex .setCon {
+      width: 40%; }
+    .settings .scrollBackground .flex .setInfoFirst {
+      width: 100%;
+      margin-bottom: 70px; }
+    .settings .scrollBackground .flex .setInfo {
+      width: 100%;
+      margin-bottom: 40px; }
+  .settings .scrollBackground .setButton {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end; }
+    .settings .scrollBackground .setButton .setSaveButton {
+      padding: 15px 45px;
+      color: #f7f7f7;
+      background-color: #37beba;
+      cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

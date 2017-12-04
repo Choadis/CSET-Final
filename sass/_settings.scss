@@ -13,4 +13,40 @@
     display: inline;
     margin-right: 5px;
   }
+  .headerContainer {
+    margin-bottom: -120px;
+  }
+  .scrollBackground {
+  width: 100%;
+  .mont12 {
+    font-weight: bold;
+    color: #2e0a3a;
+    }
+  .flex {
+    justify-content: space-between;
+    .setCon {
+      width: 40%;
+    }
+    .setInfoFirst {
+      width: 100%;
+      margin-bottom: 70px;
+    }
+    .setInfo {
+      width: 100%;
+      margin-bottom: 40px;
+      }
+    }
+    .setButton {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: flex-end;
+      .setSaveButton{
+        padding: 15px 45px;
+        color: $textWhite;
+        background-color: #37beba;
+        cursor: pointer;
+      }
+    }
+  }
 }
