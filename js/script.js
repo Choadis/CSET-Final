@@ -9,7 +9,7 @@ $(document).ready(() => {
  	$('.return').on('click', () =>{
     	remove();
 	});
- 	$('.logOut').on('click', () =>{
+ 	$('#logOut').on('click', () =>{
     	$('#alert').addClass('alert');
     	$('.logout').show();
 	});
