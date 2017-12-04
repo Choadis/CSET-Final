@@ -9,6 +9,7 @@ $(document).ready(() => {
     if (email === verify && email.slice(-19) === '@stevenscollege.edu'){
     $('.enterNewEmail').hide();
     $('.emailPopUp').show();
+    $('#altEmail').text(verify);
   } else {
     $('.text1').show();
   }
