@@ -9,13 +9,30 @@
   a {
     text-decoration: none;
   }
-  .dashProgCon {
-    display: inline-block;
-    width: 70%;
-    .dashClass {
+  .scrollBackground {
+    .mont12 {
+      font-weight: bold;
+      color: #2e0a3a;
+    }
+    .mont13 {
+      font-weight: bold;
+      color: #48a2ba;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .dashProgCon {
       display: inline-block;
-      width: 40%;
-      background-color: white;
+      width: 70%;
+      .dashProg {
+        display: inline-block;
+        width: 40%;
+        background-color: white;
+        text-align: center;
+      }
+    }
+    .dashClassCon {
+      display: block;
+      width: 30%;
     }
   }
 }

@@ -888,12 +888,24 @@ header {
   width: 80%; }
 .dashboard a {
   text-decoration: none; }
-.dashboard .dashProgCon {
+.dashboard .scrollBackground .mont12 {
+  font-weight: bold;
+  color: #2e0a3a; }
+.dashboard .scrollBackground .mont13 {
+  font-weight: bold;
+  color: #48a2ba;
+  margin-bottom: 20px;
+  text-align: left; }
+.dashboard .scrollBackground .dashProgCon {
   display: inline-block;
   width: 70%; }
-  .dashboard .dashProgCon .dashClass {
+  .dashboard .scrollBackground .dashProgCon .dashProg {
     display: inline-block;
     width: 40%;
-    background-color: white; }
+    background-color: white;
+    text-align: center; }
+.dashboard .scrollBackground .dashClassCon {
+  display: block;
+  width: 30%; }
 
 /*# sourceMappingURL=style.css.map */
