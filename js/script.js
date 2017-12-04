@@ -23,4 +23,7 @@ function remove() {
     $('.help2d').hide();
     $('.logout').hide();
     $('.forgot').hide();
+    $('.forgot2').hide();
+    $('.forgot3').hide();
+    $('.forgot4').hide();
 };
