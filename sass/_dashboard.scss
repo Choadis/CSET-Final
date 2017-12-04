@@ -30,9 +30,29 @@
         text-align: center;
       }
     }
+    .dashLinkCon {
+      width: 100%;
+      text-align: right;
+      .dashLink {
+        @extend .mont12;
+        font-weight: bold;
+      }
+    }
     .dashClassCon {
       display: block;
       width: 30%;
+      .dashClass {
+        margin-bottom: 30px;
+      }
+    }
+    .dashDue {
+      margin-bottom: 100px;
+      h4 {
+        font-family: $mont;
+        font-size: 12px;
+        font-weight: bold;
+        color: #59aac0;
+      }
     }
   }
 }
