@@ -207,6 +207,7 @@ header {
     display: flex;
     justify-content: space-around; }
     header .logoutBox .logOut {
+      cursor: pointer;
       float: right;
       display: inline-block;
       color: #59aac0; }
