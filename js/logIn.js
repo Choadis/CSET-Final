@@ -10,4 +10,8 @@ $('#logInButton').on('click', () =>{
     if (check != '@stevenscollege.edu' || password.length < 1)
     console.log('Incorrect Email address or password');
   })
+$('.passLink').on('click', () =>{
+  $('#alert').addClass('alert');
+  $('.forgot').show();
+})
 })

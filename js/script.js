@@ -22,4 +22,5 @@ function remove() {
     $('.help2c').hide();
     $('.help2d').hide();
     $('.logout').hide();
+    $('.forgot').hide();
 };

@@ -637,7 +637,7 @@ header {
   background-color: black;
   opacity: .6; }
 
-.help1, .help2a, .help2c, .help2d, .help2b, .logout {
+.help1, .help2a, .help2c, .help2d, .help2b, .logout, .logInPage .forgot {
   display: none;
   padding: 48px;
   width: 40%;
@@ -647,16 +647,16 @@ header {
   position: fixed;
   top: 32%;
   left: 30%; }
-  .help1 .mont14, .help2a .mont14, .help2c .mont14, .help2d .mont14, .help2b .mont14, .logout .mont14 {
+  .help1 .mont14, .help2a .mont14, .help2c .mont14, .help2d .mont14, .help2b .mont14, .logout .mont14, .logInPage .forgot .mont14 {
     margin-left: 10px;
     display: inline-block;
     color: black;
     font-weight: 400; }
-  .help1 h1, .help2a h1, .help2c h1, .help2d h1, .help2b h1, .logout h1 {
+  .help1 h1, .help2a h1, .help2c h1, .help2d h1, .help2b h1, .logout h1, .logInPage .forgot h1 {
     color: #33c7ba !important;
     font-weight: 700 !important;
     margin-left: 0 !important; }
-  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button] {
+  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button], .logInPage .forgot input[type=button] {
     border: 0;
     margin-top: 10px;
     background-color: #3bb9ba;
@@ -810,11 +810,38 @@ header {
     .logInPage .mainContainer .logInBox .mont12 {
       padding: 15px 40px; }
     .logInPage .mainContainer .logInBox .passLink {
+      cursor: pointer;
       color: #3bb9ba;
       padding: 0;
       margin-top: 45px;
       float: right;
       margin-right: 175px; }
+.logInPage .forgot {
+  border-top: 10px;
+  display: none; }
+  .logInPage .forgot .mont14 {
+    margin-left: 0;
+    display: block;
+    padding-bottom: 20px; }
+  .logInPage .forgot input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #3bb9ba; }
+  .logInPage .forgot input {
+    margin-top: -15px;
+    display: block;
+    width: 350px;
+    height: 48px;
+    background-color: #f7f7f7;
+    border: solid 1px #3bb9ba; }
+  .logInPage .forgot button {
+    margin-top: 25px;
+    display: block;
+    border: 0;
+    color: white;
+    background-color: #3bb9ba;
+    width: 114px;
+    height: 42px; }
 
 .settings .sidebarContainer {
   width: 180px;
