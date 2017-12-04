@@ -881,4 +881,19 @@ header {
       background-color: #37beba;
       cursor: pointer; }
 
+.dashboard .sidebarContainer {
+  width: 180px;
+  text-align: center; }
+.dashboard .mainContainer {
+  width: 80%; }
+.dashboard a {
+  text-decoration: none; }
+.dashboard .dashProgCon {
+  display: inline-block;
+  width: 70%; }
+  .dashboard .dashProgCon .dashClass {
+    display: inline-block;
+    width: 40%;
+    background-color: white; }
+
 /*# sourceMappingURL=style.css.map */
