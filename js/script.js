@@ -28,4 +28,15 @@ function remove() {
     $('.forgot4').hide();
     $('.emailPopUp').hide();
     $('.enterNewEmail').hide();
+    $('.text1').hide();
 };
+function calView(){
+  window.location.href = 'schedule.html#scheduleGraph';
+
+  $(document).onLoad(() => {
+  $('.calendar').css('color', '#2fcfba');
+  $('.list').css('color', 'black');
+  $('#scheduleGraph').show();
+  $('#scheduleList').hide();
+})
+}

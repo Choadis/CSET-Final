@@ -252,7 +252,7 @@ header {
 
 .schedule .scrollBackground .selector {
   margin-top: -25px; }
-.schedule .scrollBackground .list {
+.schedule .scrollBackground .calendar {
   color: #2fcfba; }
 .schedule .scrollBackground .mont10 {
   float: right;
@@ -656,7 +656,7 @@ header {
     color: #33c7ba !important;
     font-weight: 700 !important;
     margin-left: 0 !important; }
-  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button], .logInPage .forgot input[type=button], .logInPage .forgot2 input[type=button], .logInPage .forgot3 input[type=button], .logInPage .forgot4 input[type=button] {
+  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button], .logInPage .forgot input[type=button], .logInPage .forgot2 input[type=button], .logInPage .forgot3 input[type=button], .logInPage .forgot4 input[type=button], .settings .enterNewEmail input[type=button], .settings .emailPopUp input[type=button] {
     border: 0;
     margin-top: 10px;
     background-color: #3bb9ba;
