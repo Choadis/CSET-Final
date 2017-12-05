@@ -112,7 +112,7 @@
     }
   }
   .forgot {
-    border-top: 10px;
+    border-top: 10px solid;
     @extend .help1;
     display: none;
     .mont14 {
@@ -144,7 +144,9 @@
     }
   }
   .forgot2 {
-    border-top: 10px;
+    border-top: 10px solid;
+    border-image: linear-gradient(90deg, #33c7ba, #33c7ba 33%, black 33%, black 66%);
+    border-image-slice: 1;
     @extend .help1;
     display: none;
     .mont14 {
@@ -176,7 +178,9 @@
     }
   }
   .forgot3 {
-    border-top: 10px;
+    border-top: 10px solid;
+    border-image: linear-gradient(90deg, #33c7ba, #33c7ba 66%, black 66%, black 33%);
+    border-image-slice: 1;
     @extend .help1;
     display: none;
     .mont14 {
@@ -208,7 +212,8 @@
     }
   }
   .forgot4 {
-    border-top: 10px;
+    border-top: 10px solid;
+    border-color: #33c7ba;
     @extend .help1;
     display: none;
     .mont14 {
