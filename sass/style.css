@@ -921,6 +921,8 @@ header {
     float: none;
     display: inline-block; }
 
+.settings #editEmail {
+  cursor: pointer; }
 .settings .sidebarContainer {
   width: 180px;
   text-align: center; }
