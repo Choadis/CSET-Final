@@ -28,6 +28,57 @@
         width: 40%;
         background-color: white;
         text-align: center;
+        padding: 15px 5px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+      }
+    }
+      .percentBox {
+        #circle1 {
+          background: linear-gradient(90deg, lightgrey, lightgrey 15%, #33c7ba 15%, #33c7ba 85%);
+        }
+        #circle2 {
+          background: linear-gradient(90deg, lightgrey, lightgrey 25%, #33c7ba 25%, #33c7ba 75%);
+        }
+        #circle3 {
+          background: linear-gradient(90deg, lightgrey, lightgrey 10%, #33c7ba 10%, #33c7ba 90%);
+        }
+        #circle4 {
+          background: linear-gradient(90deg, lightgrey, lightgrey 5%, #33c7ba 5%, #33c7ba 95%);
+        }
+        #circle5 {
+          background: linear-gradient(90deg, lightgrey, lightgrey 60%, #33c7ba 60%, #33c7ba 40%);
+        }
+        #circle6 {
+          background: linear-gradient(90deg, lightgrey, lightgrey 34%, #33c7ba 34%, #33c7ba 66%);
+        }
+        .circle {
+          width: 152px;
+          height: 152px;
+          border-radius: 100px;
+          margin: 0 auto;
+          border-image-slice: 1;
+          text-align: center;
+          div {
+            padding: 20px 30px 30px;
+            border-radius: 100px;
+            position: relative;
+            display: block;
+            top: 11px;
+            left: 11px;
+            height: 80px;
+            width: 70px;
+            background-color: white;
+            text-align: center;
+            .mont40 {
+              color: $lBlue;
+              margin-left: -5px;
+            }
+            .mont12 {
+              color: black;
+              font-weight: 400;
+            }
+          }
       }
     }
     .dashLinkCon {
