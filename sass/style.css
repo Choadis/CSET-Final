@@ -91,6 +91,10 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 30px; }
 
+.mont40 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px; }
+
 .robo13 {
   font-family: "Roboto Slab", serif;
   font-size: 13px; }
@@ -656,7 +660,7 @@ header {
     color: #33c7ba !important;
     font-weight: 700 !important;
     margin-left: 0 !important; }
-  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button], .logInPage .forgot input[type=button], .logInPage .forgot2 input[type=button], .logInPage .forgot3 input[type=button], .logInPage .forgot4 input[type=button] {
+  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button], .logInPage .forgot input[type=button], .logInPage .forgot2 input[type=button], .logInPage .forgot3 input[type=button], .logInPage .forgot4 input[type=button], .settings .enterNewEmail input[type=button], .settings .emailPopUp input[type=button] {
     border: 0;
     margin-top: 10px;
     background-color: #3bb9ba;
@@ -1011,7 +1015,46 @@ header {
     display: inline-block;
     width: 40%;
     background-color: white;
+    text-align: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    margin-right: 10px; }
+.dashboard .scrollBackground .percentBox #circle1 {
+  background: linear-gradient(90deg, lightgrey, lightgrey 15%, #33c7ba 15%, #33c7ba 85%); }
+.dashboard .scrollBackground .percentBox #circle2 {
+  background: linear-gradient(90deg, lightgrey, lightgrey 25%, #33c7ba 25%, #33c7ba 75%); }
+.dashboard .scrollBackground .percentBox #circle3 {
+  background: linear-gradient(90deg, lightgrey, lightgrey 10%, #33c7ba 10%, #33c7ba 90%); }
+.dashboard .scrollBackground .percentBox #circle4 {
+  background: linear-gradient(90deg, lightgrey, lightgrey 5%, #33c7ba 5%, #33c7ba 95%); }
+.dashboard .scrollBackground .percentBox #circle5 {
+  background: linear-gradient(90deg, lightgrey, lightgrey 60%, #33c7ba 60%, #33c7ba 40%); }
+.dashboard .scrollBackground .percentBox #circle6 {
+  background: linear-gradient(90deg, lightgrey, lightgrey 34%, #33c7ba 34%, #33c7ba 66%); }
+.dashboard .scrollBackground .percentBox .circle {
+  width: 152px;
+  height: 152px;
+  border-radius: 100px;
+  margin: 0 auto;
+  border-image-slice: 1;
+  text-align: center; }
+  .dashboard .scrollBackground .percentBox .circle div {
+    padding: 20px 30px 30px;
+    border-radius: 100px;
+    position: relative;
+    display: block;
+    top: 11px;
+    left: 11px;
+    height: 80px;
+    width: 70px;
+    background-color: white;
     text-align: center; }
+    .dashboard .scrollBackground .percentBox .circle div .mont40 {
+      color: #59aac0;
+      margin-left: -5px; }
+    .dashboard .scrollBackground .percentBox .circle div .mont12, .dashboard .scrollBackground .percentBox .circle div .dashLinkCon .dashLink, .dashboard .scrollBackground .dashLinkCon .percentBox .circle div .dashLink {
+      color: black;
+      font-weight: 400; }
 .dashboard .scrollBackground .dashLinkCon {
   width: 100%;
   text-align: right; }
