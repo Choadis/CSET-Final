@@ -94,7 +94,7 @@
     <!-- This section contains the toggled calendar elements (The current schedule as well as the weekly calendar view) -->
     <section class="scrollBackground">
       <!-- This div is the default displayed element on page load. Hidden on toggle -->
-      <div id="scheduleList">
+      <div id="scheduleList" class="none">
         <h1 class="mont12">CURRENT SCHEDULE
         </h1>
         <div class="selector">
@@ -147,7 +147,7 @@
         </article>
       </div>
       <!-- This div is the alternate (toggled) element for this page. Hidden on page load -->
-      <div id="scheduleGraph" class="none">
+      <div id="scheduleGraph">
         <h1 class="mont12"> CURRENT SCHEDULE
         </h1>
         <div class="selector">
@@ -160,7 +160,7 @@
           </span>
         </div>
         <!-- This article contains the table weekly schedule -->
-        <article class="calendarContainer">
+        <article id="calendar" class="calendarContainer">
           <div class="calendarColumn">
             <p class="day mont11"> Monday
             </p>
