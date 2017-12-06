@@ -5,7 +5,7 @@ $(document).ready(() => {
   });
   $('#nextButton').on('click', () => {
     var checked = [];
-      $('input[name=major]:checked').each( function() {            
+      $('input[name=major]:checked').each( function() {
       checked.push($(this).val());
       });
     if ($('input[name=major]:checked').val() != undefined) {
@@ -29,13 +29,8 @@ $(document).ready(() => {
   });
   $('#registerButton').on('click', () => {
     $('.ddSection').addClass('none');
-    $('.classList').toggle('none');
-  });
-  $('#okayButton').on('click', () => {
-    $('.classList').toggle('none');
     $('.registered').toggle('none');
   });
-
   $('.helpButton').on('click', () =>{
     $('#alert').addClass('alert');
     $('.help1').show();
