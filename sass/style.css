@@ -186,14 +186,14 @@ body {
     margin-left: -20px;
     padding: 5px 20px; }
   .sidebarContainer .mont11 {
-    text-align: center;
+    text-align: left;
     width: 100%;
     display: block;
     text-decoration: none;
     color: #f7f7f7;
     margin-bottom: 10px;
     margin-left: -20px;
-    padding: 5px 20px; }
+    padding: 5px 6px 5px 34px; }
 
 header {
   height: 40%;
