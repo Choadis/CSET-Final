@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  // JQ for 'New alternate email'
+  // Email alert //
   $('#editEmail').on('click', () =>{
   $('#alert').addClass('alert');
   $('.enterNewEmail').show();
@@ -20,6 +20,26 @@ $(document).ready(() => {
     $('#alert').removeClass('alert');
     $('.emailPopUp').hide();
   })
+// Alt Phone alert //
+  $('#editAltPhone').on('click', () =>{
+  $('#alert').addClass('alert');
+  $('.enterAltPhone').show();
+})
+$('#submitPhone').on('click', () =>{
+  var phone = $('#altPhone').val();
+  var verifyPhone = $('#verifyAltPhone').val();
+  if (phone === verifyPhone){
+  $('.enterAltPhone').hide();
+  $('#altPhoneInput').text(verifyPhone);
+  $('.enterAltPhone').hide();
+  $('#alert').removeClass('alert');
+} else {
+  $('input[type=text]').effect('shake')
+  $('.text1').show();
+};
+});
+
+})
   // JQ for the 'New Home Address'
   $('#editHAddress').on('click', () =>{
     $('#alert').addClass('alert');

@@ -133,10 +133,10 @@
             <div class="flex">
               <p class="mont12"> ALTERNATE PHONE:
               </p>
-              <a class="mont12">EDIT
+              <a class="mont12" id="editAltPhone">EDIT
               </a>
             </div>
-            <p class="mont15"> (610) 550-0933
+            <p class="mont15" id="altPhoneInput"> (610) 550-0933
             </p>
           </div>
           <div class="setInfo">
@@ -246,6 +246,20 @@
         <button type="button" class="mont12 coursesButton" id="doneButton"> Done
         </button>
       </div>
+    </div>
+  </div>
+  <div class="enterAltPhone none">
+    <h1 class="mont14"> Enter your new alternate phone number </h1>
+    <form class="mont16" id="altPhoneForm">
+      <input type="text" id="altPhone" placeholder="New phone number">
+    </input>
+      <input type="text" id="verifyAltPhone" placeholder="Verify phone number">
+    </input>
+    </form>
+    <p class="text1 mont12 none"> Please enter valid inputs </p>
+    <div>
+      <button type="button" class="mont12 coursesButton" id="submitPhone"> Done
+      </button>
     </div>
   </div>
   <div id="alert"></div>
