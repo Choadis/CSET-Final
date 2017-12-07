@@ -9,6 +9,7 @@ $(document).ready(() => {
     if (check != '@stevenscollege.edu' || password.length < 1){
     $('input[type=text]').effect('shake')
     $('input[type=password]').effect('shake')
+    alert('Incorrect user name or password')
   };
 })
   $('.passLink').on('click', () =>{
