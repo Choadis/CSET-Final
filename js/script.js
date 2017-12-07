@@ -29,6 +29,10 @@ function remove() {
     $('.emailPopUp').hide();
     $('.enterNewEmail').hide();
     $('.text1').hide();
+    $('.enterNewHAddress').hide();
+    $('.hAddressPopup').hide();
+    $('.enterNewSAddress').hide();
+    $('.sAddressPopup').hide();
 };
 function calView(){
   window.location.href = 'schedule.html#scheduleGraph';
