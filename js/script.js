@@ -30,6 +30,10 @@ function remove() {
     $('.enterNewEmail').hide();
     $('.text1').hide();
     $('.enterAltPhone').hide();
+    $('.enterNewHAddress').hide();
+    $('.hAddressPopup').hide();
+    $('.enterNewSAddress').hide();
+    $('.sAddressPopup').hide();
 };
 function calView(){
   window.location.href = 'schedule.html#scheduleGraph';

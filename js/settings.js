@@ -40,3 +40,32 @@ $('#submitPhone').on('click', () =>{
 });
 
 })
+  // JQ for the 'New Home Address'
+  $('#editHAddress').on('click', () =>{
+    $('#alert').addClass('alert');
+    $('.enterNewHAddress').show();
+  });
+  $('#submitHAddress').on('click', () =>{
+    var hAddress = $('#hAddress').val();
+    if (hAddress.length > 1) {
+    $('.enterNewHAddress').hide();
+    $('.hAddressPopup').show();
+  } else {
+    $('input[type=text]').effect('shake');
+  }
+});
+// JQ for the 'New School Address'
+  $('#editSAddress').on('click', () =>{
+    $('#alert').addClass('alert');
+    $('.enterNewSAddress').show();
+  });
+  $('#submitSAddress').on('click', () =>{
+    var sAddress = $('#sAddress').val();
+    if (sAddress.length > 1) {
+    $('.enterNewSAddress').hide();
+    $('.sAddressPopup').show();
+  } else {
+    $('input[type=text]').effect('shake');
+  }
+  });
+});

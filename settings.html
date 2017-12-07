@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title> Profile </title>
+  <title> Settings </title>
   <link rel="stylesheet" href="sass/style.css"> <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700%7CRoboto+Slab" rel="stylesheet">
   <meta name=viewport content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="js/jQuery.min.js"></script>
@@ -88,7 +88,7 @@
             <div class="flex">
               <p class="mont12"> HOME ADDRESS:
               </p>
-              <a class="mont12">EDIT
+              <a class="mont12" id="editHAddress">EDIT
               </a>
             </div>
             <p class="mont15"> 324 Elm Street, Lancaster,
@@ -119,7 +119,7 @@
             <div class="flex">
               <p class="mont12"> SCHOOL ADDRESS:
               </p>
-              <a class="mont12">EDIT
+              <a class="mont12" id="editSAddress">EDIT
               </a>
             </div>
             <p class="mont15"> 1100 East Orange Street,
@@ -173,6 +173,52 @@
       <a href="index.html" class="mont12">LOG OUT</a>
     </div>
     <p class="mont12 return">NEVERMIND</p>
+  </div>
+  <div class="enterNewHAddress none">
+    <div>
+      <h1 class="mont14"> Update home address
+      </h1>
+      <p class="mont14"> To update your home address, please enter the new address below
+      </p>
+      <form class="mont16" id="hAddressForm">
+        <input type="text" id="hAddress" placeholder="New Home Address">
+      </input>
+      </form>
+      <div>
+        <button type="button" class="mont12 coursesButton" id="submitHAddress"> Submit
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="hAddressPopup none">
+    <div class="hAddressUpdate">
+      <p class="mont14"> Your home address has been updated.
+      </p>
+    </h1>
+  </div>
+  </div>
+  <div class="enterNewSAddress none">
+    <div>
+      <h1 class="mont14"> Update school address
+      </h1>
+      <p class="mont14"> To update your school address, please enter the new address below
+      </p>
+      <form class="mont16" id="sAddressForm">
+        <input type="text" id="sAddress" placeholder="New School Address">
+      </input>
+      </form>
+      <div>
+        <button type="button" class="mont12 coursesButton" id="submitSAddress"> Submit
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="sAddressPopup none">
+    <div class="sAddressUpdate">
+      <p class="mont14"> Your school address has been updated.
+      </p>
+    </h1>
+  </div>
   </div>
   <div class="enterNewEmail none">
     <div>

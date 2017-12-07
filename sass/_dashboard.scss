@@ -34,37 +34,82 @@
       }
     }
       .percentBox {
-        #circle1 {
-          background: linear-gradient(90deg, lightgrey, lightgrey 15%, #33c7ba 15%, #33c7ba 85%);
+        #circle1::before {
+          content: '';
+          display: block;
+          margin-left: 50%;
+          height: 100%;
+          border-radius: 0 100% 100% 0 / 50%;
+          background-color: #33c7ba;
+          transform-origin: left; 
+          transform: rotate(126deg);
         }
-        #circle2 {
-          background: linear-gradient(90deg, lightgrey, lightgrey 25%, #33c7ba 25%, #33c7ba 75%);
+        #circle2::before {
+          content: '';
+          display: block;
+          margin-left: 50%;
+          height: 100%;
+          border-radius: 0 100% 100% 0 / 50%;
+          background-color: #33c7ba;
+          transform-origin: left; 
+          transform: rotate(90deg);
         }
-        #circle3 {
-          background: linear-gradient(90deg, lightgrey, lightgrey 10%, #33c7ba 10%, #33c7ba 90%);
+        #circle3::before {
+          content: '';
+          display: block;
+          margin-left: 50%;
+          height: 100%;
+          border-radius: 0 100% 100% 0 / 50%;
+          background-color: #33c7ba;
+          transform-origin: left; 
+          transform: rotate(144deg);
         }
-        #circle4 {
-          background: linear-gradient(90deg, lightgrey, lightgrey 5%, #33c7ba 5%, #33c7ba 95%);
+        #circle4::before {
+          content: '';
+          display: block;
+          margin-left: 50%;
+          height: 100%;
+          border-radius: 0 100% 100% 0 / 50%;
+          background-color: #33c7ba;
+          transform-origin: left; 
+          transform: rotate(162deg);
         }
-        #circle5 {
-          background: linear-gradient(90deg, lightgrey, lightgrey 60%, #33c7ba 60%, #33c7ba 40%);
+        #circle5::before {
+          content: '';
+          display: block;
+          margin-left: 50%;
+          height: 100%;
+          border-radius: 0 100% 100% 0 / 50%;
+          background-color: inherit;
+          transform-origin: left; 
+          transform: rotate(144deg);
         }
-        #circle6 {
-          background: linear-gradient(90deg, lightgrey, lightgrey 34%, #33c7ba 34%, #33c7ba 66%);
+        #circle6::before {
+          content: '';
+          display: block;
+          margin-left: 50%;
+          height: 100%;
+          border-radius: 0 100% 100% 0 / 50%;
+          background-color: #33c7ba;
+          transform-origin: left; 
+          transform: rotate(57.6deg);
         }
         .circle {
+          background: lightgrey;
           width: 152px;
           height: 152px;
           border-radius: 100px;
           margin: 0 auto;
+          background-image: linear-gradient(90deg, transparent 50%, #33c7ba 0);
           border-image-slice: 1;
           text-align: center;
+          transition: transform 2s;
           div {
             padding: 20px 30px 30px;
             border-radius: 100px;
             position: relative;
             display: block;
-            top: 11px;
+            top: -141px;
             left: 11px;
             height: 80px;
             width: 70px;
@@ -79,7 +124,7 @@
               font-weight: 400;
             }
           }
-      }
+        }
     }
     .dashLinkCon {
       width: 100%;
