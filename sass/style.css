@@ -513,7 +513,7 @@ header {
 .courses .ddSection {
   background-color: white;
   padding: 30px;
-  height: 145%;
+  height: auto;
   width: 90%; }
   .courses .ddSection .mont18:first-child {
     color: #44ccc0;
@@ -547,7 +547,7 @@ header {
       margin-top: 20px;
       background-color: #44ccc0; }
   .courses .ddSection .coursesButton {
-    margin-top: 30px;
+    margin-top: 50px;
     color: #f7f7f7;
     float: right;
     cursor: pointer; }
