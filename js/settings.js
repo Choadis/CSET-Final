@@ -68,4 +68,3 @@ $('#submitPhone').on('click', () =>{
     $('input[type=text]').effect('shake');
   }
   });
-});
