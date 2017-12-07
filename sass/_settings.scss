@@ -11,13 +11,14 @@
   }
   a {
     text-decoration: none;
+    cursor: pointer;
   }
   .inline {
     display: inline;
     margin-right: 5px;
   }
   .headerContainer {
-    margin-bottom: -120px;
+    margin-bottom: -90px;
   }
   .scrollBackground {
   width: 100%;
@@ -88,6 +89,96 @@
     }
   }
   .emailPopUp{
+    @extend .help1;
+    .text1{
+      padding-top: 30px;
+      margin-left: -2px;
+    }
+    .coursesButton{
+      background-color: #3bb9ba;
+      width: 114px;
+      height: 42px;
+      color: $textWhite;
+      margin-top: 20px;
+      float: right;
+    }
+  }
+  .enterNewHAddress{
+    @extend .help1;
+    margin-top: -75px;
+    .mont14{
+      padding-top: 30px;
+      margin-left: -2px;
+    }
+    ::-webkit-input-placeholder{
+      font-size: 16px;
+      font-family: $mont;
+      color: #3bb9ba;
+    }
+    input{
+        display: block;
+        width: 350px;
+        height: 48px;
+        background-color: #f7f7f7;
+        border: solid 1px #3bb9ba;
+        text-align: center;
+        margin-top: 20px;
+      }
+    .coursesButton{
+      background-color: #3bb9ba;
+      width: 114px;
+      height: 42px;
+      color: $textWhite;
+      margin-top: 20px;
+    }
+  }
+  .hAddressPopup{
+    text-align: center;
+    @extend .help1;
+    .text1{
+      padding-top: 30px;
+      margin-left: -2px;
+    }
+    .coursesButton{
+      background-color: #3bb9ba;
+      width: 114px;
+      height: 42px;
+      color: $textWhite;
+      margin-top: 20px;
+      float: right;
+    }
+  }
+  .enterNewSAddress{
+    @extend .help1;
+    margin-top: -75px;
+    .mont14{
+      padding-top: 30px;
+      margin-left: -2px;
+    }
+    ::-webkit-input-placeholder{
+      font-size: 16px;
+      font-family: $mont;
+      color: #3bb9ba;
+    }
+    input{
+        display: block;
+        width: 350px;
+        height: 48px;
+        background-color: #f7f7f7;
+        border: solid 1px #3bb9ba;
+        text-align: center;
+        margin-top: 20px;
+      }
+    .coursesButton{
+      background-color: #3bb9ba;
+      width: 114px;
+      height: 42px;
+      color: $textWhite;
+      margin-top: 20px;
+    }
+  }
+  .sAddressPopup{
+    text-align: center;
     @extend .help1;
     .text1{
       padding-top: 30px;
