@@ -655,7 +655,7 @@ header {
   background-color: black;
   opacity: .6; }
 
-.help1, .help2a, .help2c, .help2d, .help2b, .logout, .logInPage .forgot, .logInPage .forgot2, .logInPage .forgot3, .logInPage .forgot4, .settings .enterNewEmail, .settings .emailPopUp, .settings .enterAltPhone, .settings .enterAltPhone .enterNewHAddress, .settings .enterAltPhone .hAddressPopup, .settings .enterAltPhone .enterNewSAddress, .settings .enterAltPhone .sAddressPopup {
+.help1, .help2a, .help2c, .help2d, .help2b, .logout, .logInPage .forgot, .logInPage .forgot2, .logInPage .forgot3, .logInPage .forgot4, .settings .enterNewEmail, .settings .emailPopUp, .settings .enterAltPhone, .settings .enterPhone, .settings .enterNewHAddress, .settings .hAddressPopup, .settings .enterNewSAddress, .settings .sAddressPopup {
   display: none;
   padding: 48px;
   width: 40%;
@@ -665,16 +665,16 @@ header {
   position: fixed;
   top: 32%;
   left: 30%; }
-  .help1 .mont14, .help2a .mont14, .help2c .mont14, .help2d .mont14, .help2b .mont14, .logout .mont14, .logInPage .forgot .mont14, .logInPage .forgot2 .mont14, .logInPage .forgot3 .mont14, .logInPage .forgot4 .mont14, .settings .enterNewEmail .mont14, .settings .emailPopUp .mont14, .settings .enterAltPhone .mont14 {
+  .help1 .mont14, .help2a .mont14, .help2c .mont14, .help2d .mont14, .help2b .mont14, .logout .mont14, .logInPage .forgot .mont14, .logInPage .forgot2 .mont14, .logInPage .forgot3 .mont14, .logInPage .forgot4 .mont14, .settings .enterNewEmail .mont14, .settings .emailPopUp .mont14, .settings .enterAltPhone .mont14, .settings .enterPhone .mont14, .settings .enterNewHAddress .mont14, .settings .hAddressPopup .mont14, .settings .enterNewSAddress .mont14, .settings .sAddressPopup .mont14 {
     margin-left: 10px;
     display: inline-block;
     color: black;
     font-weight: 400; }
-  .help1 h1, .help2a h1, .help2c h1, .help2d h1, .help2b h1, .logout h1, .logInPage .forgot h1, .logInPage .forgot2 h1, .logInPage .forgot3 h1, .logInPage .forgot4 h1, .settings .enterNewEmail h1, .settings .emailPopUp h1, .settings .enterAltPhone h1, .settings .enterAltPhone .enterNewHAddress h1, .settings .enterAltPhone .hAddressPopup h1, .settings .enterAltPhone .enterNewSAddress h1, .settings .enterAltPhone .sAddressPopup h1 {
+  .help1 h1, .help2a h1, .help2c h1, .help2d h1, .help2b h1, .logout h1, .logInPage .forgot h1, .logInPage .forgot2 h1, .logInPage .forgot3 h1, .logInPage .forgot4 h1, .settings .enterNewEmail h1, .settings .emailPopUp h1, .settings .enterAltPhone h1, .settings .enterPhone h1, .settings .enterNewHAddress h1, .settings .hAddressPopup h1, .settings .enterNewSAddress h1, .settings .sAddressPopup h1 {
     color: #33c7ba !important;
     font-weight: 700 !important;
     margin-left: 0 !important; }
-  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button], .logInPage .forgot input[type=button], .logInPage .forgot2 input[type=button], .logInPage .forgot3 input[type=button], .logInPage .forgot4 input[type=button], .settings .enterNewEmail input[type=button], .settings .emailPopUp input[type=button], .settings .enterAltPhone input[type=button] {
+  .help1 input[type=button], .help2a input[type=button], .help2c input[type=button], .help2d input[type=button], .help2b input[type=button], .logout input[type=button], .logInPage .forgot input[type=button], .logInPage .forgot2 input[type=button], .logInPage .forgot3 input[type=button], .logInPage .forgot4 input[type=button], .settings .enterNewEmail input[type=button], .settings .emailPopUp input[type=button], .settings .enterAltPhone input[type=button], .settings .enterPhone input[type=button], .settings .enterNewHAddress input[type=button], .settings .hAddressPopup input[type=button], .settings .enterNewSAddress input[type=button], .settings .sAddressPopup input[type=button] {
     border: 0;
     margin-top: 10px;
     background-color: #3bb9ba;
@@ -1052,81 +1052,111 @@ header {
     color: #f7f7f7;
     margin-top: 20px;
     float: right; }
-  .settings .enterAltPhone .enterNewHAddress {
-    margin-top: -75px; }
-    .settings .enterAltPhone .enterNewHAddress .mont14 {
-      padding-top: 30px;
-      margin-left: -2px; }
-    .settings .enterAltPhone .enterNewHAddress ::-webkit-input-placeholder {
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif;
-      color: #3bb9ba; }
-    .settings .enterAltPhone .enterNewHAddress input {
-      display: block;
-      width: 350px;
-      height: 48px;
-      background-color: #f7f7f7;
-      border: solid 1px #3bb9ba;
-      text-align: center;
-      margin-top: 20px; }
-    .settings .enterAltPhone .enterNewHAddress ::-webkit-input-placeholder {
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif;
-      color: #3bb9ba; }
-    .settings .enterAltPhone .enterNewHAddress .coursesButton {
-      background-color: #3bb9ba;
-      width: 114px;
-      height: 42px;
-      color: #f7f7f7;
-      margin-top: 20px;
-      float: right; }
-  .settings .enterAltPhone .hAddressPopup {
-    text-align: center; }
-    .settings .enterAltPhone .hAddressPopup .text1 {
-      padding-top: 30px;
-      margin-left: -2px; }
-    .settings .enterAltPhone .hAddressPopup .coursesButton {
-      background-color: #3bb9ba;
-      width: 114px;
-      height: 42px;
-      color: #f7f7f7;
-      margin-top: 20px;
-      float: right; }
-  .settings .enterAltPhone .enterNewSAddress {
-    margin-top: -75px; }
-    .settings .enterAltPhone .enterNewSAddress .mont14 {
-      padding-top: 30px;
-      margin-left: -2px; }
-    .settings .enterAltPhone .enterNewSAddress ::-webkit-input-placeholder {
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif;
-      color: #3bb9ba; }
-    .settings .enterAltPhone .enterNewSAddress input {
-      display: block;
-      width: 350px;
-      height: 48px;
-      background-color: #f7f7f7;
-      border: solid 1px #3bb9ba;
-      text-align: center;
-      margin-top: 20px; }
-    .settings .enterAltPhone .enterNewSAddress .coursesButton {
-      background-color: #3bb9ba;
-      width: 114px;
-      height: 42px;
-      color: #f7f7f7;
-      margin-top: 20px; }
-  .settings .enterAltPhone .sAddressPopup {
-    text-align: center; }
-    .settings .enterAltPhone .sAddressPopup .text1 {
-      padding-top: 30px;
-      margin-left: -2px; }
-    .settings .enterAltPhone .sAddressPopup .coursesButton {
-      background-color: #3bb9ba;
-      width: 114px;
-      height: 42px;
-      color: #f7f7f7;
-      margin-top: 20px;
-      float: right; }
+.settings .enterPhone {
+  width: 400px; }
+  .settings .enterPhone .text1 {
+    color: red;
+    padding-top: 15px; }
+  .settings .enterPhone form {
+    padding-top: 20px; }
+  .settings .enterPhone ::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #3bb9ba; }
+  .settings .enterPhone input {
+    display: block;
+    width: 350px;
+    height: 48px;
+    background-color: #f7f7f7;
+    border: solid 1px #3bb9ba;
+    text-align: center;
+    margin-top: 20px; }
+  .settings .enterPhone ::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #3bb9ba; }
+  .settings .enterPhone .coursesButton {
+    background-color: #3bb9ba;
+    width: 114px;
+    height: 42px;
+    color: #f7f7f7;
+    margin-top: 20px;
+    float: right; }
+.settings .enterNewHAddress {
+  margin-top: -75px; }
+  .settings .enterNewHAddress .mont14 {
+    padding-top: 30px;
+    margin-left: -2px; }
+  .settings .enterNewHAddress ::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #3bb9ba; }
+  .settings .enterNewHAddress input {
+    display: block;
+    width: 350px;
+    height: 48px;
+    background-color: #f7f7f7;
+    border: solid 1px #3bb9ba;
+    text-align: center;
+    margin-top: 20px; }
+  .settings .enterNewHAddress ::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #3bb9ba; }
+  .settings .enterNewHAddress .coursesButton {
+    background-color: #3bb9ba;
+    width: 114px;
+    height: 42px;
+    color: #f7f7f7;
+    margin-top: 20px;
+    float: right; }
+.settings .hAddressPopup {
+  text-align: center; }
+  .settings .hAddressPopup .text1 {
+    padding-top: 30px;
+    margin-left: -2px; }
+  .settings .hAddressPopup .coursesButton {
+    background-color: #3bb9ba;
+    width: 114px;
+    height: 42px;
+    color: #f7f7f7;
+    margin-top: 20px;
+    float: right; }
+.settings .enterNewSAddress {
+  margin-top: -75px; }
+  .settings .enterNewSAddress .mont14 {
+    padding-top: 30px;
+    margin-left: -2px; }
+  .settings .enterNewSAddress ::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #3bb9ba; }
+  .settings .enterNewSAddress input {
+    display: block;
+    width: 350px;
+    height: 48px;
+    background-color: #f7f7f7;
+    border: solid 1px #3bb9ba;
+    text-align: center;
+    margin-top: 20px; }
+  .settings .enterNewSAddress .coursesButton {
+    background-color: #3bb9ba;
+    width: 114px;
+    height: 42px;
+    color: #f7f7f7;
+    margin-top: 20px; }
+.settings .sAddressPopup {
+  text-align: center; }
+  .settings .sAddressPopup .text1 {
+    padding-top: 30px;
+    margin-left: -2px; }
+  .settings .sAddressPopup .coursesButton {
+    background-color: #3bb9ba;
+    width: 114px;
+    height: 42px;
+    color: #f7f7f7;
+    margin-top: 20px;
+    float: right; }
 
 .dashboard .sidebarContainer {
   width: 180px;

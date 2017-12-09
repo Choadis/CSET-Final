@@ -39,32 +39,65 @@ $('#submitPhone').on('click', () =>{
 };
 });
 
+// New primary phone number //
+$('#editPhone').on('click', () =>{
+$('#alert').addClass('alert');
+$('.enterPhone').show();
 })
+$('#submitNewPhone').on('click', () =>{
+  var phone = $('#phone').val();
+  var verifyPhone = $('#verifyPhone').val();
+  if (phone === verifyPhone){
+  $('.enterPhone').hide();
+  $('#phoneInput').text(verifyPhone);
+  $('.enterPhone').hide();
+  $('#alert').removeClass('alert');
+} else {
+  $('input[type=text]').effect('shake')
+  $('.text1').show();
+};
+});
+
   // JQ for the 'New Home Address'
   $('#editHAddress').on('click', () =>{
     $('#alert').addClass('alert');
     $('.enterNewHAddress').show();
   });
   $('#submitHAddress').on('click', () =>{
-    var hAddress = $('#hAddress').val();
+    var hAddress = $('#newHAddress').val();
+    var city = $('#newHAddressCity').val();
+    var apt = $('#newHAddressApt').val();
     if (hAddress.length > 1) {
     $('.enterNewHAddress').hide();
-    $('.hAddressPopup').show();
+    $('#hAddress').text(hAddress)
+    $('#hApt').text(apt)
+    $('#hCity').text(city)
+    $('#alert').removeClass('alert');
+  } if (apt.length < 1){
+    $('#hApt').hide();
   } else {
     $('input[type=text]').effect('shake');
   }
-});
+  });
 // JQ for the 'New School Address'
   $('#editSAddress').on('click', () =>{
     $('#alert').addClass('alert');
     $('.enterNewSAddress').show();
   });
   $('#submitSAddress').on('click', () =>{
-    var sAddress = $('#sAddress').val();
+    var sAddress = $('#newSAddress').val();
+    var city = $('#newSAddressCity').val();
+    var apt = $('#newSAddressApt').val();
     if (sAddress.length > 1) {
     $('.enterNewSAddress').hide();
-    $('.sAddressPopup').show();
+    $('#sAddress').text(sAddress)
+    $('#apt').text(apt)
+    $('#city').text(city)
+    $('#alert').removeClass('alert');
+  } if (apt.length < 1){
+    $('#apt').hide();
   } else {
     $('input[type=text]').effect('shake');
   }
   });
+  })
