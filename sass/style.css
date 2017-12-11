@@ -109,6 +109,8 @@ body {
   height: -webkit-fill-available;
   background-size: 100%;
   background-repeat: no-repeat; }
+  body a {
+    cursor: pointer; }
   body .textLink {
     color: #50e3c2; }
 
