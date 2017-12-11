@@ -91,19 +91,21 @@
               <a class="mont12" id="editHAddress">EDIT
               </a>
             </div>
-            <p class="mont15"> 324 Elm Street, Lancaster,
+            <p class="mont15" id="hAddress"> 324 Elm Street, Lancaster,
             </p>
-            <p class="mont15"> Pennsylvania 17603
+            <p class="mont15" id="hApt"> apt 6,
+            </p>
+            <p class="mont15" id="hCity"> Pennsylvania 17603
             </p>
           </div>
           <div class="setInfo">
             <div class="flex">
               <p class="mont12"> CELL PHONE:
               </p>
-              <a class="mont12">EDIT
+              <a class="mont12" id="editPhone">EDIT
               </a>
             </div>
-            <p class="mont15"> (717) 867-5309
+            <p class="mont15" id="phoneInput"> (717) 867-5309
             </p>
           </div>
           <div class="setInfo">
@@ -122,11 +124,11 @@
               <a class="mont12" id="editSAddress">EDIT
               </a>
             </div>
-            <p class="mont15"> 1100 East Orange Street,
+            <p class="mont15" id="sAddress"> 1100 East Orange Street,
             </p>
-            <p class="mont15"> #4B,
+            <p class="mont15" id="apt"> #4B,
             </p>
-            <p class="mont15"> Lancaster, Pennsylvania 17603
+            <p class="mont15" id="city"> Lancaster, Pennsylvania 17603
             </p>
           </div>
           <div class="setInfo">
@@ -181,7 +183,9 @@
       <p class="mont14"> To update your home address, please enter the new address below
       </p>
       <form class="mont16" id="hAddressForm">
-        <input type="text" id="hAddress" placeholder="New Home Address">
+        <input type="text" id="newHAddress" placeholder="New Home Address">
+        <input type="text" id="newHAddressApt" placeholder="Appartment number">
+        <input type="text" id="newHAddressCity" placeholder="City">
       </input>
       </form>
       <div>
@@ -190,13 +194,6 @@
       </div>
     </div>
   </div>
-  <div class="hAddressPopup none">
-    <div class="hAddressUpdate">
-      <p class="mont14"> Your home address has been updated.
-      </p>
-    </h1>
-  </div>
-  </div>
   <div class="enterNewSAddress none">
     <div>
       <h1 class="mont14"> Update school address
@@ -204,7 +201,9 @@
       <p class="mont14"> To update your school address, please enter the new address below
       </p>
       <form class="mont16" id="sAddressForm">
-        <input type="text" id="sAddress" placeholder="New School Address">
+        <input type="text" id="newSAddress" placeholder="New School Address">
+        <input type="text" id="newSAddressApt" placeholder="Appartment number">
+        <input type="text" id="newSAddressCity" placeholder="City">
       </input>
       </form>
       <div>
@@ -212,13 +211,6 @@
         </button>
       </div>
     </div>
-  </div>
-  <div class="sAddressPopup none">
-    <div class="sAddressUpdate">
-      <p class="mont14"> Your school address has been updated.
-      </p>
-    </h1>
-  </div>
   </div>
   <div class="enterNewEmail none">
     <div>
@@ -259,6 +251,20 @@
     <p class="text1 mont12 none"> Please enter valid inputs </p>
     <div>
       <button type="button" class="mont12 coursesButton" id="submitPhone"> Done
+      </button>
+    </div>
+  </div>
+  <div class="enterPhone none">
+    <h1 class="mont14"> Enter your new phone number </h1>
+    <form class="mont16" id="PhoneForm">
+      <input type="text" id="phone" placeholder="New phone number">
+    </input>
+      <input type="text" id="verifyPhone" placeholder="Verify phone number">
+    </input>
+    </form>
+    <p class="text1 mont12 none"> Please enter valid inputs </p>
+    <div>
+      <button type="button" class="mont12 coursesButton" id="submitNewPhone"> Done
       </button>
     </div>
   </div>
