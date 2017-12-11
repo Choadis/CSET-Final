@@ -28,6 +28,7 @@ function remove() {
     $('.forgot4').hide();
     $('.emailPopUp').hide();
     $('.enterNewEmail').hide();
+    $('.enterPhone').hide();
     $('.text1').hide();
     $('.enterAltPhone').hide();
     $('.enterNewHAddress').hide();
