@@ -1,6 +1,6 @@
 # CSET Final
 
-Final project for my first year of college. Mock up of a desktop app
+Final project for my first semester of college. Mock up of a desktop app
 
 ## Getting Started
 
