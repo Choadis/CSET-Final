@@ -14,7 +14,7 @@ Download the files locally and view them through your browser
 
 ## Authors
 
-* **Stefen Dahlgren** - *Initial work* - [PurpleBooth](https://github.com/Choadis)
+* **Stefen Dahlgren** - *Initial work* - (https://github.com/Choadis)
 * **Cole Simchick** *Initial work* - (https://github.com/colelabar)
 * **Caleb Mahala** * Initial work - (https://github.com/calebgmahala)
 
